@@ -13,12 +13,13 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
-div.banner {
+div#banner {
     display: none;
     background-color: #48e5c2;
     color: #333333;
     padding: 1em;
     text-align: center;
+    width: 100%;
 }
 header {
     color: #333333;
