@@ -6,7 +6,7 @@ body {
     grid-template-rows: 5em 11em 4em;
     font-family: 'Courier New', Courier, monospace;
 }
-.image{
+img{
     float: right;
     padding-top: 2.5em;
     padding-right: .75em;
