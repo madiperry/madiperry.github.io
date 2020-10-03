@@ -8,7 +8,7 @@ body {
 }
 .image{
     grid-column: 4/5;
-    
+    float: left;
 }
 header, footer{
     background-color: rgb(0,51,0);
@@ -33,7 +33,4 @@ footer{
     font-size: 12px;
     text-align: center;
     grid-column:1/5;
-}
-footer script a:visited {
-    color: white;
 }
