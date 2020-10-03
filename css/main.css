@@ -34,6 +34,6 @@ footer{
     text-align: center;
     grid-column:1/5;
 }
-footer script a {
+footer script a:visited {
     color: white;
 }
