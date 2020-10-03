@@ -8,8 +8,8 @@ body {
 }
 .image{
     float: right;
-    padding-top: 5em;
-    padding-right: 5em;
+    padding-top: 2.5em;
+    padding-right: .75em;
 }
 header, footer{
     background-color: rgb(0,51,0);
