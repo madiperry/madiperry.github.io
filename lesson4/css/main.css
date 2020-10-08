@@ -1,7 +1,7 @@
 body {
     background-color:#FFFCF2;
-    color: #4B9FCC
-    font-size: 18px;
+    color: #4B9FCC;
+    font-size: 18em;
     line-height: 1.5;
     display: inline-block;
     font-family: 'Courier New', Courier, monospace;
@@ -11,9 +11,6 @@ header, footer{
     color: #1D3632;
     background-color: #A0CCA7; 
     display: flex;
-}
-header h1, header h6 {
-    padding-left: 1em;
 }
 header img {
     float: left;
