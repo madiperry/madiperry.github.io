@@ -5,6 +5,7 @@ body {
     line-height: 1.5em;
     display: inline-block;
     font-family: 'Courier New', Courier, monospace;
+    margin-left: 10%;
 }
 
 header, footer{
@@ -20,7 +21,7 @@ header img {
     float: left;
     padding: .5em;
     padding: 1.5em;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 nav{
     display: inline;
