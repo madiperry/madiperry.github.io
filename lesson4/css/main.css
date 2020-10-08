@@ -3,20 +3,16 @@ body {
     color: #70566D;
     font-size: 14px;
     line-height: 1.5em;
-    display: inline-block;
+    display: inline;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-header, footer{
+header {
     color: #1D3632;
     background-color: #A0CCA7; 
     display: flex;
-}
-h1{
-    line-height: 0;
-    margin-bottom: 0;
 }
 header img {
     float: left;
@@ -29,6 +25,7 @@ nav{
 }
 ul {
     list-style-type: none;
+    text-decoration: none;
     margin: 0;
     padding: 0;
 }
