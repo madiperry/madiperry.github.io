@@ -19,7 +19,7 @@ header img {
     flex-wrap: left;
 }
 nav{
-    display: flex;
+    display: inline;
     flex: 1 1 100%;
     list-style: none;
     background-color:
