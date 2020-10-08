@@ -17,6 +17,7 @@ header h1, header h6 {
 header img {
     float: left;
     padding-right: 1.5em;
+    display:flex;
 }
 nav{
     display: flex;
