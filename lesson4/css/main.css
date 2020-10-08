@@ -8,11 +8,12 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
-
 header {
     color: #1D3632;
     background-color: #A0CCA7; 
-    display: flex;
+    display: block;
+    padding: 0.7em;
+    border-radius: 15px 50px 30px 5px;
 }
 header img {
     float: left;
@@ -23,13 +24,13 @@ header img {
 nav{
     background-color:#ddc4dd;
 }
-ul {
+ul{
     list-style-type: none;
     text-decoration: none;
     margin: 0;
     padding: 0;
 }
-body nav ul li a{
+body nav ul{
     display: flex;
     flex: 1 1 100%;
     color:#1D3632;
