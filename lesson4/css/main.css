@@ -29,6 +29,9 @@ nav ul li a{
 nav ul li a:hover {
     color:#dccfec;
 }
+.weatherSummary {
+    position: relative;
+}
 footer{
     font-size: .5em;
     text-align: right;
