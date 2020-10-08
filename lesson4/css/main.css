@@ -59,5 +59,7 @@ main{
 }
 footer{
     font-size: .5em;
+}
+.contact {
     text-align: right;
 }
