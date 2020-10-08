@@ -42,16 +42,18 @@ nav ul li a:hover {
 }
 .weatherSummary {
     border: 1.5px solid #1D3632;
-    border-radius: 0.5px;
-    padding: 0.7em;
+    margin: 0.7em;
+    padding: 0.5em;
 }
 .forcast {
     border: 1.5px solid #1D3632;
-    padding: 0.7em;
+    margin: 0.7em;
+    padding: 0.5em;
 }
 .article {
     border: 1.5px solid #1D3632;
-    padding: 0.7em;
+    margin: 0.7em;
+    padding: 0.5em;
 }
 footer{
     font-size: .5em;
