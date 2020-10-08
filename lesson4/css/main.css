@@ -38,6 +38,10 @@ body nav ul{
 nav ul li a:hover {
     color:#dccfec;
 }
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .weatherSummary {
     border: 1.5px solid #1D3632;
     margin: 0.7em;
