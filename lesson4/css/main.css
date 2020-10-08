@@ -21,7 +21,7 @@ header img {
 nav{
     display: flex;
     flex: 1 1 100%;
-    list-style-type: none;
+    list-style: none;
 }
 nav ul li a{
     color:#70566D;
