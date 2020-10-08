@@ -28,14 +28,14 @@ nav{
     background-color:#ddc4dd;
 }
 ul {
-    display: flex;
-    flex: 1 1 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 nav ul li a{
-    color:#70566D;
+    display: flex;
+    flex: 1 1 100%;
+    color:#1D3632;
 }
 nav ul li a:hover {
     color:#dccfec;
