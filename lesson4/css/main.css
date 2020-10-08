@@ -1,0 +1,28 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    display: grid;
+    grid-template-columns: 10em 10em 10em 10em;
+    grid-template-rows: 5em 11em 4em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header, footer{
+    color: #1D3632;
+    background-color: #A0CCA7; 
+}
+header h1, header h6 {
+    padding-left: 1em;
+}
+header img {
+    float: left;
+    padding-right: 1.5em;
+}
+nav{
+    display: flex;
+    flex: 1 1 100%;
+
+}
+nav ul li a{
+    color:#4B9FCC;
+}
