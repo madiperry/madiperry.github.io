@@ -24,11 +24,11 @@ header img {
     margin-left: 10%;
 }
 nav{
-    display: inline;
-    flex: 1 1 100%;
     background-color:#ddc4dd;
 }
-ul{
+ul {
+    display: flex;
+    flex: 1 1 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
