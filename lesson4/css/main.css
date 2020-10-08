@@ -11,7 +11,6 @@ header, footer{
     color: #1D3632;
     background-color: #A0CCA7; 
     display: flex;
-    flex: wrap;
 }
 h1, h6{
     display: flex;
