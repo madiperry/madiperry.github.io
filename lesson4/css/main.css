@@ -13,10 +13,14 @@ header, footer{
     display: flex;
     flex: wrap;
 }
+h1, h6{
+    display:inline-block;
+}
 header img {
     float: left;
-    padding-right: 1.5em;
-    flex-wrap: left;
+    padding: .5em;
+    padding: 1.5em;
+    margin-left: 20%;
 }
 nav{
     display: inline;
