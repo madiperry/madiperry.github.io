@@ -1,6 +1,6 @@
 body {
-    background-color:#FFFCF2;
-    color: #4B9FCC;
+    background-color:#DDC4DD;
+    color: 70566D;
     font-size: 18px;
     line-height: .5em;
     display: inline-block;
@@ -24,10 +24,10 @@ nav{
     list-style-type: none;
 }
 nav ul li a{
-    color:#9DD7FF;
+    color:#70566D;
 }
 nav ul li a:hover {
-    color:#4B9FCC;
+    color:#dccfec;
 }
 footer{
     font-size: .5em;
