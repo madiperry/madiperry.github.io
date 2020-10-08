@@ -2,7 +2,7 @@ body {
     background-color:#FFFCF2;
     color: #4B9FCC;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: .5em;
     display: inline-block;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -10,9 +10,8 @@ body {
 header, footer{
     color: #1D3632;
     background-color: #A0CCA7; 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: .5em;
+    display: flex;
+    flex: wrap;
 }
 header img {
     float: left;
