@@ -22,7 +22,7 @@ nav{
     display: inline;
     flex: 1 1 100%;
     list-style: none;
-    background-color:
+    background-color:#ddc4dd;
 }
 nav ul li a{
     color:#70566D;
@@ -31,7 +31,7 @@ nav ul li a:hover {
     color:#dccfec;
 }
 .weatherSummary {
-    position: #ddc4dd;
+    position: relative;
 }
 footer{
     font-size: .5em;
