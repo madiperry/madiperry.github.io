@@ -12,9 +12,6 @@ header, footer{
     background-color: #A0CCA7; 
     display: flex;
 }
-h1, h6{
-    display: flex;
-}
 header img {
     float: left;
     padding: .5em;
