@@ -10,7 +10,7 @@ body {
 header, footer{
     color: #1D3632;
     background-color: #A0CCA7; 
-    display:inline;
+    display: flex;
 }
 header h1, header h6 {
     padding-left: 1em;
@@ -23,7 +23,7 @@ header img {
 nav{
     display: flex;
     flex: 1 1 100%;
-    list-style: none;
+    list-style-type: none;
 }
 nav ul li a{
     color:#9DD7FF;
