@@ -14,7 +14,7 @@ header, footer{
     flex: wrap;
 }
 h1, h6{
-    display:inline-block;
+    display: flex;
 }
 header img {
     float: left;
