@@ -21,8 +21,15 @@ header img {
 nav{
     display: flex;
     flex: 1 1 100%;
-
+    list-style: none;
 }
 nav ul li a{
+    color:#9DD7FF;
+}
+nav ul li a:hover {
     color:#4B9FCC;
+}
+footer{
+    font-size: .5em;
+    text-align: right;
 }
