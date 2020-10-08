@@ -10,6 +10,7 @@ body {
 header, footer{
     color: #1D3632;
     background-color: #A0CCA7; 
+    display:inline;
 }
 header h1, header h6 {
     padding-left: 1em;
