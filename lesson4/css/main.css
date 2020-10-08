@@ -32,7 +32,7 @@ ul {
     margin: 0;
     padding: 0;
 }
-nav ul li a{
+body nav ul li a{
     display: flex;
     flex: 1 1 100%;
     color:#1D3632;
@@ -46,9 +46,11 @@ nav ul li a:hover {
 }
 .forcast {
     border: 1px solid #1D3632;
+    padding: 0.7em;
 }
 .article {
     border: 1px solid #1D3632;
+    0.7em;
 }
 footer{
     font-size: .5em;
