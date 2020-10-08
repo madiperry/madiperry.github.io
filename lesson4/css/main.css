@@ -10,7 +10,7 @@ body {
 header, footer{
     color: #1D3632;
     background-color: #A0CCA7; 
-    display: flex;
+    display: inline-block;
 }
 header img {
     float: left;
