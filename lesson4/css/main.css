@@ -60,8 +60,14 @@ main{
     margin: 0.7em;
     padding: 0.5em;
 }
+.article img {
+    float: right;
+}
 footer{
     font-size: .5em;
+}
+footer img{
+    text-align: left;
 }
 .contact {
     text-align: right;
