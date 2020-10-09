@@ -83,7 +83,6 @@ section {
 }
 section img {
     float: left;
-    display:inline-block;
     margin-left: 20%;
   padding-right: 0.5em;
 }
