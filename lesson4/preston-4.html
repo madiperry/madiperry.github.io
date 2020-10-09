@@ -5,17 +5,17 @@
     <meta name="description" content="Assignment portal for Madison Perry in WDD 230 At BYU-I">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preston 4</title>
-    <link href="css/main.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="images/rsz_1rsz_iconfinder_wind_mill_2974393.png" width="75" alt="logo">
+        <img src="https://cdn.glitch.com/056bd73b-f8e8-4ee5-a569-787358da0c54%2Frsz_1rsz_iconfinder_wind_mill_2974393.png?v=1602277883157" width="75" alt="logo">
         <h1>Winds of Preston</h1>
-        <h6>Where the winds never stop blowing</h4>
+        <h6>Where the winds never stop blowing</h6>
     </header>
     <nav>
         <ul>
-            <li><a href="">Menu</a></li>
+            <li><a href="" &#9776; onclick="toggleMenu()">Menu</a></li>
             <li><a href="">Home</a></li>
             <li><a href="">Preston</a></li>
             <li><a href="">Soda Springs</a></li>
@@ -26,43 +26,44 @@
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <img src="https://via.placeholder.com/468x150?text=Hero+Image" alt="hero image">
-        <section class="weatherSummary">
-        <h4>Weather Summary</h4>
-            <ul>
-                <li>Wind:</li>
-                <li>Precipitation:</li>
-                <li>Temperature:</li>
-                <li>Humidity:</li>
-            </ul>
+        <img class="hero" src="https://via.placeholder.com/500x200?text=Hero+Image" alt="hero image">
+          <section class="weatherSummary">
+            <p><strong>Weather Summary</strong>
+            Temperature:
+              Humidity:
+              Wind:
+              Precipitation:
+            </p>
         </section>
         <section class="forcast">
             <h4>Five day Forcast</h4>
                 <ul>
-                    <li>https://via.placeholder.com/25x25</li>
-                    <li>https://via.placeholder.com/25x25</li>
-                    <li>https://via.placeholder.com/25x25</li>
-                    <li>https://via.placeholder.com/25x25</li>
-                    <li>https://via.placeholder.com/25x25</li>
+                    <li><img id="1" src="https://via.placeholder.com/25x25?text=Temp"></li>
+                    <li><img id="2" src="https://via.placeholder.com/25x25?text=Temp"></li>
+                    <li><img id="3" src="https://via.placeholder.com/25x25?text=Temp"></li>
+                    <li><img id="4" src="https://via.placeholder.com/25x25?text=Temp"></li>
+                    <li><img id="5" src="https://via.placeholder.com/25x25?text=Temp"></li>
                 </ul>
         </section>
         <section class="article">
             <h4>Article Title</h4>
-            <img src="https://via.placeholder.com/60x60?text=Article+Picture" alt="Article Picture">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque assumenda magnam est. Magni optio autem veritatis, maiores itaque adipisci quaerat vitae rerum rem sunt illo neque, nobis ipsa voluptates facilis.</p>
+            <img src="https://via.placeholder.com/125x125?text=Article+Picture" alt="Article Picture">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque assumenda magnam est. Magni optio autem veritatis, maiores itaque adipisci quaerat vitae rerum rem sunt illo neque, nobis ipsa voluptates facilis.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque assumenda magnam est. Magni optio autem veritatis, maiores itaque adipisci quaerat vitae rerum rem sunt illo neque, nobis ipsa voluptates facilis.</p>
         </section>
     </main>
-    <footer>
-        <img src="https://via.placeholder.com/150x60?text=Map" alt:"map">
+    <section>
+      <img src="https://via.placeholder.com/250x150?text=Map" alt="map">
         <div class="contact">
         <h4>Contact information</h4>
         <p>&#9993; madiperry@byui.edu</p>
         <p>&#9742; 888-888-8888</p>
-        <a href="https://www.facebook.com/"><img src="images/facebook.png"></a>
-        <a href="https://www.instagram.com/?hl=en"><img src="images/instagram.png" ></a>
+        <a href="https://www.facebook.com/"><img src="https://cdn.glitch.com/056bd73b-f8e8-4ee5-a569-787358da0c54%2Ffacebook.png?v=1602277873597" alt="facebook" width="50"></a>
+        <a href="https://www.instagram.com/?hl=en"><img src="https://cdn.glitch.com/056bd73b-f8e8-4ee5-a569-787358da0c54%2Finstagram.png?v=1602277878716" alt="instagram" width="50"></a>
         <a href="https://twitter.com/?lang=en"></a>
         </div>
-        <p>Last Updated: <span id="currentdate"></span></p>
+    </section>
+    <footer>
+      <p>&copy;2020 | Madison Perry | Missouri | <a href="https://byui.edu">BYU-I Online Learning</a> Last Updated: <span id="currentdate"></span></p>
     <script src="js/javascript"></script>
     </footer>
 </body>
