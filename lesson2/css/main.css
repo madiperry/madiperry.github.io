@@ -1,3 +1,6 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
 body{
     color: #48e5c2;
     background-color: #333333;
@@ -48,4 +51,5 @@ footer{
     background-color: #ffbf00;
     text-align: center;
     color: #333333;
+}
 }

@@ -1,5 +1,54 @@
-@media (min-width: 32.5em) {
-image {
-float:right;
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body{
+    color: #48e5c2;
+    background-color: #333333;
+    font-size: 16px;
+    line-height: 1.5em;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
 }
+h1 {
+    background-color: #ffbf00;
+    color: #333333;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom:1em;
 }
+div.one {
+    text-align: center;
+    margin-bottom: 5em;
+    border: 1px solid #ffbf00;
+}
+div.one img{
+    padding: 1em;
+}
+div.two {
+    text-align: center;
+    margin-bottom: 5em;
+    border: 1px solid #ffbf00;
+}
+div.two img{
+    padding: 1em;
+}
+div.three {
+    text-align: center;
+    margin-bottom: 5em;
+    border: 1px solid #ffbf00;
+}
+div.three img{
+    padding: 1em;
+}
+footer{
+    grid-column: 1/4;
+    grid-row: 3;
+    font-size: 12px;
+    background-color: #ffbf00;
+    text-align: center;
+    color: #333333;
+}
+
