@@ -1,99 +1,21 @@
-body {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5e5e5e+0,5e5e5e+0,333333+100&0.89+8,1+100 */
-  background: -moz-linear-gradient(top,  rgba(94,94,94,0.89) 0%, rgba(91,91,91,0.89) 8%, rgba(51,51,51,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(94,94,94,0.89) 0%,rgba(91,91,91,0.89) 8%,rgba(51,51,51,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(94,94,94,0.89) 0%,rgba(91,91,91,0.89) 8%,rgba(51,51,51,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e35e5e5e', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
-  ;
-    color: #48e5c2;
-    font-size: 18px;
-    line-height: 1.5em;
-    display: inline;
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-header {
-    color: #333333;
-    background-color: #ffbf00; 
-    display: block;
-    padding: 0.7em;
-    text-align: center;
-    margin:0;
-}
-header img {
-    float: left;
-    padding: .5em;
-    padding: 1.5em;
-    margin-left: 10%;
-}
-nav {
-  background-color: #333333;
-  overflow: hidden;
-}
-nav a {
-    float: left;
-    color:#48e5c2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
-}
-ul{
-    list-style-type: none;
-    display: flex;
-    flex: 1 1 100%;
-    padding: 0;
-}
-nav ul li a {
-  text-align: center;
-}
-nav ul li a:hover {
-    color:#dccfec;
-}
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
 
-main{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.weatherSummary {
-    border: 1.5px solid #ffbf00;
-    margin: 1.5em;
-    padding-left: 2em;
-    padding-right: 2em;
-    max-width: 150px;
-    font-size: 12px;
-}
-
-.forcast {
-    border: 1.5px solid #ffbf00;
-    margin: 0.7em;
-    padding: 0.5em;
-}
-.article {
-    border: 1.5px solid #ffbf00;
-    margin: 0.7em;
-    padding: 0.5em;
-}
-.article img {
-    float: right;
-    margin-right: 2em;
-}
-section {
-    font-size: 1em;
-}
-section img {
-    float: left;
-    margin-left: 20%;
-  padding-right: 0.5em;
-}
-.contact {
-    display: inline-block;
-    text-align: right;
-}
-footer{
-  font-size: 12px;
-  background-color: #ffbf00;
-  text-align: center;
-  color: #333333;
+    nav button{
+        display:none;
+    }
+    nav ul.hide{
+        display:block;
+    }
+    nav ul{
+        margin-left: 2%;
+    }
+    nav ul li{
+    float:left;
+    }
+    nav ul li a{
+    border: none;
+    border-right: 1px solid rgba (0,0,0,0.3);
+    padding: .8rem 1rem;
+    }
 }

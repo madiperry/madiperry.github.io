@@ -1,4 +1,10 @@
-/* CSS files add styling rules to your content */
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 body {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5e5e5e+0,5e5e5e+0,333333+100&0.89+8,1+100 */
   background: -moz-linear-gradient(top,  rgba(94,94,94,0.89) 0%, rgba(91,91,91,0.89) 8%, rgba(51,51,51,1) 100%); /* FF3.6-15 */
@@ -7,7 +13,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e35e5e5e', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
   ;
     color: #48e5c2;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.5em;
     display: inline;
     font-family: 'Courier New', Courier, monospace;
@@ -28,7 +34,14 @@ header img {
     padding-left: 1.5em;
     margin-left: 0.1em;
 }
-.navigation {
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #48e5c2;
+}
+nav {
   background-color: #333333;
   overflow: hidden;
 }
@@ -39,27 +52,28 @@ header img {
     display:block;
     flex: 1 1 100%;
 }
-.responsive li {
-    display: block;
+nav ul.hide {
+    display: none;
 }
 nav a {
-    float: left;
     color:#48e5c2;
-    text-align: center;
     padding: 1px 2px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
 }
-ul{
-    list-style-type: none;
-    display: flex;
+nav ul{
+    padding: 0;
+    margin: 0;
+    display: block;
     flex: 1 1 100%;
 }
 nav ul li a {
-  text-align: center;
+    display: block;
+    padding: .8rem 2%;
+    border-top: 1px solid rgba(0,0,0,0.3)
 }
 nav ul li a:hover {
-    color:#dccfec;
+    color:#ccc;
 }
 
 main{
@@ -80,7 +94,8 @@ main{
 .forcast {
     border: 1.5px solid #1D3632;
     margin: 0.7em;
-    padding: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 2em;
 }
 .article {
     border: 1.5px solid #1D3632;
@@ -111,3 +126,9 @@ footer{
   text-align: center;
   color: #333333;
 }
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
