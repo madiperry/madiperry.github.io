@@ -45,9 +45,6 @@ nav {
   background-color: #333333;
   overflow: hidden;
 }
-.navigation li:firstchild {
-    display: none;
-}
 .navigation li {
     display:block;
     flex: 1 1 100%;
