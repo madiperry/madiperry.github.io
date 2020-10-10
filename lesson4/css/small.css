@@ -28,9 +28,19 @@ header img {
     padding-left: 1.5em;
     margin-left: 0.1em;
 }
-nav {
+.navigation {
   background-color: #333333;
   overflow: hidden;
+}
+.navigation li:firstchild {
+    display: none;
+}
+.navigation li {
+    display:block;
+    flex: 1 1 100%;
+}
+.responsive li {
+    display: block;
 }
 nav a {
     float: left;

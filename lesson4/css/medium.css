@@ -43,6 +43,7 @@ ul{
     list-style-type: none;
     display: flex;
     flex: 1 1 100%;
+    padding: 0;
 }
 nav ul li a {
   text-align: center;
