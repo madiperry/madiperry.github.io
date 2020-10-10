@@ -78,7 +78,7 @@ main{
     margin-right: 10%;
 }
 .weatherSummary {
-    border: 1.5px solid #1D3632;
+    border: 1.5px solid #ffbf00;
     margin: 1.5em;
     padding-left: 2em;
     padding-right: 2em;
@@ -89,13 +89,13 @@ main{
     max-width: 265px;
 }
 .forcast {
-    border: 1.5px solid #1D3632;
+    border: 1.5px solid #ffbf00;
     margin: 0.7em;
     padding-left: 0.5em;
     padding-bottom: 2em;
 }
 .article {
-    border: 1.5px solid #1D3632;
+    border: 1.5px solid #ffbf00;
     margin: 0.7em;
     padding: 0.5em;
 }

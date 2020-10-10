@@ -4,5 +4,15 @@
     nav ul li a{
         padding: 0.6rem 1rem;
     }
+    header{
+        font-size: 20px;
+    }
+    header img {
+        float: left;
+        width: 150px;
+        padding-top: .5em;
+        padding-left: 1.5em;
+        margin-left: 6em;
+    }
     
 } /*end large */
