@@ -113,7 +113,7 @@ section {
 section img {
     float: left;
     margin-left: 11%;
-  padding-right: 0.5em;
+    padding-right: 0.5em;
 }
 .contact {
     display: inline-block;
