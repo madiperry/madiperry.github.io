@@ -36,15 +36,17 @@ nav {
   }
 nav a {
     color:#48e5c2;
-    padding: 1px 2px;
+    padding: 2px 2px;
     text-decoration: none;
     font-size: 14px;
+    float: left;
 }
 nav ul{
     margin-left: 2%;
     list-style-type: none;
     margin:0;
-    padding:0;
+    padding:10;
+    
 }
 nav ul li{
     float: left;
