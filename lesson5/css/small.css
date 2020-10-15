@@ -100,9 +100,10 @@ main{
 section {
     font-size: 1em;
 }
-section img {
+section img.map {
     float: left;
-    margin-left: 11%;
+    width: 350px;
+    margin-left: 13%;
     padding-right: 0.5em;
 }
 .contact {

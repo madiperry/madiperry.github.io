@@ -27,4 +27,14 @@
     h2 {
         padding-top: 2em;
     }
+    section img.map {
+        float: left;
+        width: 350px;
+        margin-bottom: 2em;
+    }
+    .contact {
+        display: inline-block;
+        text-align: left;
+        margin-left: 5em;
+    }
 } /*end large */
