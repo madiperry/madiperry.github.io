@@ -93,9 +93,9 @@ main{
     padding: 0.5em;
 }
 .article img {
-    float: right;
-    margin-right: 3em;
-
+    display: block;
+    padding: 1em;
+    width: 250px;
 }
 section {
     font-size: 1em;
