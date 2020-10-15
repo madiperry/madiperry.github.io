@@ -1,5 +1,5 @@
 /* 35em is also 560px when basefont is 16px */
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 37rem) {
 
     nav button{
         display:none;
@@ -18,15 +18,20 @@
     }
     nav ul li a{
         border: none;
+        font-size: 0.75em;
         border-right: 1px solid rgba (0,0,0,0.3);
-        padding: .8rem 1rem;
+        padding: .8rem 0.2rem;
+        max-width: 100%;
+        text-align: center;
+        margin-left: 3em;
     }
     header{
         font-size: 20px;
+        padding: 1em;
     }
     header img {
         float: left;
-        width: 150px;
+        width: 100px;
         padding-top: .5em;
         padding-left: 1.5em;
         margin-left: 2em;

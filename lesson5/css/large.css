@@ -2,10 +2,15 @@
 @media only screen and (min-width: 64rem) {
 
     nav ul li a{
+        font-size: 20px;
         padding: 0.6rem 1rem;
+        max-width: 100%;
+        text-align: center;
+        margin-left: 3em;
     }
     header{
         font-size: 20px;
+        padding: 2em;
     }
     header img {
         float: left;
