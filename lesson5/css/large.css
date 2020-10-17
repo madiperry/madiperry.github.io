@@ -32,7 +32,8 @@
         top: 480px;
         left: 800px;
         border: 4px solid #ffbf00;
-        color: black;
+        background-color: #333;
+        color: #ffbf00;
     }
     .forcast{
         border: 4px solid #ffbf00;
