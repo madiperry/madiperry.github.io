@@ -10,6 +10,5 @@ document.getElementById('currentDate').innerHTML = new Date().toLocaleDateString
 let d=new Date();
 d.getDay();
 if(d.getDay()==5){
-    document.querySelector().style.display="block"
-} else{""
-}
+    document.querySelector('.banner').style.display="block";
+} 

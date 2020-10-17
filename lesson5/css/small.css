@@ -13,6 +13,12 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
+div.banner {
+    background-color: #48e5c2;
+    color: #333333;
+    padding: 1em;
+    text-align: center;
+}
 header {
     color: #333333;
     background-color: #ffbf00; 

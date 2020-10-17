@@ -8,6 +8,13 @@
         text-align: center;
         margin-left: 3em;
     }
+    div.banner {
+        background-color: #48e5c2;
+        color: #333333;
+        padding: 1em;
+        text-align: center;
+        font-size: 18px;
+    }
     header{
         font-size: 20px;
         padding: 2em;
