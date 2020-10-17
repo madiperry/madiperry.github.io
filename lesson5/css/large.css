@@ -27,6 +27,13 @@
     h2 {
         padding-top: 2em;
     }
+    .weatherSummary {
+        position: absolute;
+        top: 480px;
+        left: 800px;
+        border: 4px solid #ffbf00;
+        color: black;
+    }
     section img.map {
         float: left;
         width: 350px;

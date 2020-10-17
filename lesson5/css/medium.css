@@ -43,6 +43,13 @@
         max-width: 600px;
         padding-left: 2em;
     }
+    .weatherSummary {
+        position: absolute;
+        top: 300px;
+        left: 450px;
+        border: 2px solid #ffbf00;
+        color: black;
+    }
     .article img {
         float: right;
         width: 200px;
