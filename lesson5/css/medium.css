@@ -2,16 +2,16 @@
 @media only screen and (min-width: 35rem) {
 
     nav button{
-        display:none;
+        display: none;
     }
     nav ul.hide{
-        display:block;
+        display: block;
     }
     nav ul{
         margin-left: 2%;
         list-style-type: none;
-        margin:0;
-        padding:0;
+        margin: 0;
+        padding: 0;
     }
     nav ul li{
         float: left;
@@ -20,10 +20,10 @@
         border: none;
         font-size: 0.75em;
         border-right: 1px solid rgba (0,0,0,0.3);
-        padding: .8rem 0.2rem;
+        padding: 0.2em;
         max-width: 100%;
         text-align: center;
-        margin-left: 3em;
+        margin-left: 2em;
     }
     header{
         font-size: 20px;
