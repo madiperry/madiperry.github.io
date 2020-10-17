@@ -9,6 +9,7 @@
         margin-left: 3em;
     }
     div.banner {
+        display: none;
         background-color: #48e5c2;
         color: #333333;
         padding: 1em;
