@@ -50,6 +50,12 @@
         border: 2px solid #ffbf00;
         color: black;
     }
+    .forcast{
+        border: 2px solid #ffbf00;
+    }
+    .article{
+        border: 2px solid #ffbf00;
+    }
     .article img {
         float: right;
         width: 200px;

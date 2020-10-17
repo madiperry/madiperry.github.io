@@ -34,6 +34,12 @@
         border: 4px solid #ffbf00;
         color: black;
     }
+    .forcast{
+        border: 4px solid #ffbf00;
+    }
+    .article{
+        border: 4px solid #ffbf00;
+    }
     section img.map {
         float: left;
         width: 350px;
