@@ -99,6 +99,9 @@ ul.forcastImages {
     flex: 1 1 100%;
     list-style-type: none;
 }
+ul li{
+    text-align: center;
+}
 #one, #two, #three, #four, #five{
     margin: 0.5em;
 }
