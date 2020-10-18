@@ -37,9 +37,33 @@
     }
     .forcast{
         border: 4px solid #ffbf00;
+        padding-left: 1em;
+        font-size: 1.2em;
+    }
+    #one {
+        width: 100px;
+        margin-left: 3em;
+        padding: 0.5em;
+    }
+    #two {
+        width: 100px;
+        padding: 0.5em;
+    }
+    #three {
+        width: 100px;
+        padding: 0.5em;
+    }
+    #four {
+        width: 100px;
+        padding: 0.5em;
+    }
+    #five {
+        width: 100px;
+        padding: 0.5em;
     }
     .article{
         border: 4px solid #ffbf00;
+        font-size: 1.2em;
     }
     section img.map {
         float: left;

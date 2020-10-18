@@ -54,25 +54,30 @@
     .forcast{
         border: 2px solid #ffbf00;
     }
+    .forcastImages{
+        padding: 0.1em;
+    }
     #one {
-        width: 100px;
-        padding: 0.5em;
+        width: 85px;
+        margin-left: 0;
+        padding: 0.2em;
     }
     #two {
-        width: 100px;
-        padding: 0.5em;
+        width: 85px;
+        padding: 0.2em;
     }
     #three {
-        width: 100px;
-        padding: 0.5em;
+        width: 85px;
+        padding: 0.2em;
     }
     #four {
-        width: 100px;
-        padding: 0.5em;
+        width: 85px;
+        padding: 0.2em;
     }
     #five {
-        width: 100px;
-        padding: 0.5em;
+        width: 85px;
+        padding: 0.2em;
+        padding
     }
     .article{
         border: 2px solid #ffbf00;
