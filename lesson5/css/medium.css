@@ -54,6 +54,26 @@
     .forcast{
         border: 2px solid #ffbf00;
     }
+    #one {
+        width: 100px;
+        padding: 0.5em;
+    }
+    #two {
+        width: 100px;
+        padding: 0.5em;
+    }
+    #three {
+        width: 100px;
+        padding: 0.5em;
+    }
+    #four {
+        width: 100px;
+        padding: 0.5em;
+    }
+    #five {
+        width: 100px;
+        padding: 0.5em;
+    }
     .article{
         border: 2px solid #ffbf00;
     }

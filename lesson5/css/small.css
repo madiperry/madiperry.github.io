@@ -65,17 +65,15 @@ nav ul li a {
 nav ul li a:hover {
     color:#ccc;
 }
-
 main{
     margin-left: 10%;
     margin-right: 10%;
 }
 .weatherSummary {
     border: 1.5px solid #ffbf00;
-    margin: 1.5em;
+    margin: 0.7em;
     padding-left: 2em;
     padding-right: 2em;
-    max-width: 150px;
     font-size: 16px;
 }
 .hero {
@@ -86,6 +84,16 @@ main{
     margin: 0.7em;
     padding-left: 0.5em;
     padding-bottom: 2em;
+}
+ul.forcastImages {
+    padding: 1em;
+    margin: 0;
+    display: flex;
+    flex: 1 1 100%;
+    list-style-type: none;
+}
+#one, #two, #three, #four, #five{
+    margin: 0.5em;
 }
 .article {
     border: 1.5px solid #ffbf00;
