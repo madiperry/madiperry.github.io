@@ -83,4 +83,7 @@
         text-align: left;
         margin-left: 5em;
     }
+    p.date {
+        text-align: center;
+    }
 } /*end large */
