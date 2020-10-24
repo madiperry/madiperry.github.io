@@ -1,0 +1,89 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 54rem) {
+
+    nav ul li a{
+        font-size: 20px;
+        padding: 0.6rem 1rem;
+        max-width: 100%;
+        text-align: center;
+        margin-left: 3em;
+    }
+    div.banner {
+        display: none;
+        background-color: #48e5c2;
+        color: #333333;
+        padding: 1em;
+        text-align: center;
+        font-size: 18px;
+    }
+    header{
+        font-size: 20px;
+        padding: 2em;
+    }
+    header img {
+        float: left;
+        width: 150px;
+        padding-top: .5em;
+        padding-left: 1.5em;
+        margin-left: 6em;
+    }
+    .hero {
+        max-width: 900px;
+        padding: 3em;
+
+    }
+    h2 {
+        padding-top: 2em;
+    }
+    .weatherSummary {
+        position: absolute;
+        top: 480px;
+        left: 800px;
+        border: 4px solid #ffbf00;
+        background-color: #333;
+        color: #ffbf00;
+    }
+    .forcast{
+        border: 4px solid #ffbf00;
+        padding-left: 1em;
+        font-size: 1.2em;
+    }
+    #one {
+        width: 100px;
+        margin-left: 3em;
+        padding: 0.5em;
+    }
+    #two {
+        width: 100px;
+        padding: 0.5em;
+    }
+    #three {
+        width: 100px;
+        padding: 0.5em;
+    }
+    #four {
+        width: 100px;
+        padding: 0.5em;
+    }
+    #five {
+        width: 100px;
+        padding: 0.5em;
+    }
+    .article{
+        border: 4px solid #ffbf00;
+        font-size: 1.2em;
+    }
+    section img.map {
+        float: left;
+        width: 350px;
+        margin-bottom: 2em;
+    }
+    .contact {
+        display: inline-block;
+        text-align: left;
+        margin-left: 5em;
+    }
+    p.date {
+        text-align: center;
+    }
+} /*end large */
