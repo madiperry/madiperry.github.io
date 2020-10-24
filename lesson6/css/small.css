@@ -87,6 +87,14 @@ main{
 .hero {
     max-width: 400px;
 }
+picture.herocontainer {
+    display: block;
+    width: 96%;
+    margin: 0 2%;
+}
+main picture.herocontainer {
+    width: 100%;
+}
 .forcast {
     border: 1.5px solid #ffbf00;
     margin: 0.7em;
