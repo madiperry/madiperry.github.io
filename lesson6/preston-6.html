@@ -32,7 +32,7 @@
     <main>
         <h2>Preston Idaho</h2>
           <figure class="hero">
-              <img src="images/wdd230_image_franklinOriginal.jpeg" sizes="94vw"
+              <img src="images/wdd230_image_franklinOriginal.jpeg" alt="hero image" sizes="94vw"
               srcset="images/wdd230_image_franklinOriginal400.jpg 400w,
                       images/wdd230_image_franklinOriginal600.jpg 600w,
                       images/wdd230_image_franklinOriginal900.jpg 900w,
@@ -42,7 +42,7 @@
           <h3>Weather Summary</h3>
             <p>Temperature: 45°<br>
               Humidity: 20°<br>
-              Wind: 10mph<br>
+              Wind Chill: <span id="windChill"></span><br>
               Precipitation: 10%
             </p>
           </div>
@@ -79,6 +79,15 @@
     <script src="js/banner.js"></script>
       <script src="js/script.js"></script>
     <script src="js/datescript.js"></script>
+    <script src="js/windChill.js"></script>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+              families: ['Courier Prime']
+             }
+              });
+    </script>
 </body>
 </html>
