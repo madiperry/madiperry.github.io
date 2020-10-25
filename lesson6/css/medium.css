@@ -19,13 +19,13 @@
     nav ul li a{
         border: none;
         font-size: 0.75em;
-        border-right: 1px solid rgba (0,0,0,0.3);
+        border-right: 1px solid rgba(0,0,0,0.3);
         padding: 0.2em;
         max-width: 100%;
         text-align: center;
         margin-left: 2em;
     }
-    header{
+    header {
         font-size: 20px;
         padding: 1em;
     }
