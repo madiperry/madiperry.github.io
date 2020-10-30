@@ -82,6 +82,14 @@ h1 {
     padding: 1em;
     text-align: center;
 }
+figure{
+    background-color: #ffbf00;
+    display: inline-block;
+}
+figcaption{
+    color: #333333;
+    text-align: left;
+}
 section {
     font-size: 1em;
 }
@@ -94,7 +102,10 @@ section img.map {
 .contact {
     display: inline-block;
     text-align: left;
-    margin-left: 27%;
+    margin-left: 10%;
+}
+.map{
+    display: none;
 }
 footer{
   font-size: 12px;
