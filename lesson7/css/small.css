@@ -90,20 +90,17 @@ figure{
     background-color: #ffbf00;
     display: inline-block;
     object-fit: cover;
-    margin-left: 2em;
-    margin-bottom: 2em;
+    margin: 2em;
+    filter: blur(0em);
+    transition: filter 0.5s;
 }
-figure:hover {box-shadow: 0 0 50px #333;}
+figure:hover {box-shadow: 0 0 50px grey;}
 
 figcaption{
     color: #333333;
     text-align: left;
     padding-left: 1em;
-}
-figure img[data-src] {
-    filter: blur(0.2em);
-  }
-  
+} 
 figure img {
     filter: blur(0em);
     transition: filter 0.5s;
