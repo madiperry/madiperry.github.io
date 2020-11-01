@@ -29,7 +29,8 @@
     }
     figure{
         display: inline-block;
-        margin: 0.3em;
+        margin-left: 0.5em;
+       
     }
     section img.map {
         float: left;
