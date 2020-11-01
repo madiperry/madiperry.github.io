@@ -82,18 +82,32 @@ h1 {
     padding: 1em;
     text-align: center;
 }
+.gallery {
+    background-color: #333333;
+    margin: 0.5em;
+}
 figure{
     background-color: #ffbf00;
     display: inline-block;
     object-fit: cover;
-    margin-left: 5em;
+    margin-left: 2em;
+    margin-bottom: 2em;
 }
 figure:hover {box-shadow: 0 0 50px #333;}
+
 figcaption{
     color: #333333;
     text-align: left;
     padding-left: 1em;
 }
+figure img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
 section {
     font-size: 1em;
 }
