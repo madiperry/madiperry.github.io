@@ -4,21 +4,21 @@ const loadImages = (image) => {
   image.setAttribute('src', image.getAttribute('data-src'));
   image.onload = () => { 
     image.removeAttribute('data-src'); 
-};
+  };
 };
 
 if('IntersectionObserver' in window) {
-    const imgobserver = new IntersectionObserver((items, observer) => {
+    const imageObserver = new IntersectionObserver((items, imageObserver) => {
       items.forEach((item) => {
         if(item.isIntersecting) {
           loadImages(item.target);
-          imageobserver.unobserve(item.target);
+          imageObserver.unobserve(item.target);
         }
       });
     });
 
     imagesToLoad.forEach((img) => {
-      imageobserver.observe(img);
+      imageObserver.observe(img);
     });
   } else {
     imagesToLoad.forEach((img) => {
