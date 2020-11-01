@@ -82,6 +82,10 @@ h1 {
     padding: 1em;
     text-align: center;
 }
+div{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .gallery {
     background-color: #333333;
     margin: 0.5em;
@@ -89,10 +93,11 @@ h1 {
 figure{
     background-color: #ffbf00;
     display: inline-block;
-    object-fit: cover;
     margin: 2em;
+    text-align: center;
     filter: blur(0em);
     transition: filter 0.5s;
+    padding-top: 0.5em;
 }
 figure:hover {box-shadow: 0 0 50px grey;}
 

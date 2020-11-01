@@ -39,6 +39,14 @@
     nav {
         font-size: 19px;
     }
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    figure{
+        margin: 0.5em;
+        text-align: center;
+    }
     .map {
         display: inline-block;
     }
