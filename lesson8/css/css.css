@@ -1,0 +1,17 @@
+table{
+    display:table;
+}
+#t01{
+    width: 50%;
+    background-color: white;
+}
+#t01 tr:nth-child(even) {
+    background-color: #e7ffed;
+  }
+  #t01 tr:nth-child(odd) {
+   background-color: #e7f0ed;
+  }
+  #t01 th {
+    background-color: #628ca6;
+    color:black;
+}
