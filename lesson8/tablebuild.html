@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table Build</title>
     <link href="css/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+        </style>
 </head>
 <body>
     <table>
         <thead>
-        <caption>ACME Wildwest</caption>
+        <caption>
+            <td colspan="3">ACME Wildest</td>
+        </caption>
         <tr>
-            <th>Period</th>
-            <th>Sales</th>
-            <th>Sales Goal</th>
+            <th id="dblue">Period</th>
+            <th id="dblue">Sales</th>
+            <th id="dblue">Sales Goal</th>
         </tr>
         </thead>
         <tbody>
@@ -36,10 +40,10 @@
         <tr>
             <td>November</td>
             <td>$8,610</td>
-            <td>$7,500</td>
+            <td id="dblue">$7,500</td>
         </tr>
         <tr>
-            <td>Black Friday</td>
+            <td><em>Black Friday</em></td>
             <td colspan="2">$3,200</td>
         </tr>
         <tr>
@@ -50,7 +54,7 @@
         </tbody>
         <tfoot>
         <tr>
-            <td>Compiled 12.20.2020 by bRauls</td>
+            <td colspan="3">Compiled 12.20.2020 by bRauls</td>
         </tr>
         </tfoot>
     </table>

@@ -1,18 +1,18 @@
-table{
-    display:table;
-    font-family: 'Ubuntu' sans-serif;
-}
-#t01{
-    width: 50%;
-    background-color: white;
-}
-#t01 tr:nth-child(even) {
+table, th, td {
+    border: 0.5px solid white;
+    border-collapse: collapse;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding: 0.25em;
     background-color: #e7ffed;
-  }
-  #t01 tr:nth-child(odd) {
-   background-color: #e7f0ed;
-  }
-  #t01 th {
+}
+#dblue {
     background-color: #628ca6;
-    color:black;
+    color: white;
+}
+caption, tfoot{
+    background-color: #7fb9c2;
+}
+tbody{
+    background-color: #e7f0ed;
 }
