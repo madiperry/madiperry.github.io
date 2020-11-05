@@ -74,54 +74,16 @@ nav ul li a {
 nav ul li a:hover {
     color:#ccc;
 }
-main{
+main {
     margin-left: 10%;
     margin-right: 10%;
 }
-.weatherSummary {
-    border: 1.5px solid #ffbf00;
-    margin: 0.7em;
-    padding-left: 2em;
-    padding-right: 2em;
-    font-size: 16px;
-}
-main figure.hero {
-    width: 94%;
-    margin: 0;
-}
-main figure.hero img{
-    width: 100%;
-    margin: 0 0 0 2%;
-}
-
-.forcast {
-    border: 1.5px solid #ffbf00;
-    margin: 0.7em;
-    padding-left: 0.5em;
-    padding-bottom: 2em;
-}
-ul.forcastImages {
+div.input {
+    background-color: #ffbf00;
+    color: #333333;
     padding: 1em;
-    margin: 0;
-    display: flex;
-    flex: 1 1 100%;
-    list-style-type: none;
-}
-ul li{
+    margin: 1em;
     text-align: center;
-}
-#one, #two, #three, #four, #five{
-    margin: 0.5em;
-}
-.article {
-    border: 1.5px solid #ffbf00;
-    margin: 0.7em;
-    padding: 0.5em;
-}
-.article img {
-    display: block;
-    padding: 1em;
-    width: 250px;
 }
 section {
     font-size: 1em;
