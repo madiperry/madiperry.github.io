@@ -31,21 +31,64 @@
         </ul>
     </nav>
     <main>
-        <div class="input">
-            <p>Full Name: <input type="text" id="name" name="name" required min-length="5"><br>
-                Email: <input type="text" id="name" name="name" required min-length="5"><br>
-                Phone Number: <input type="text" id="name" name="name" required min-length="5"><br>
-                Zip Code: <input type="text" id="name" name="name" required min-length="5"><br>
-                Storm Date: <input type="text" id="name" name="name" required min-length="5"><br>
-                Storm Type: <input type="text" id="name" name="name" required min-length="5"><br>
-                Storm Severity: <input type="text" id="name" name="name" required min-length="5"><br>
-                Storm Region: <input type="text" id="name" name="name" required min-length="5"><br>
-                User in-danger Level: <input type="text" id="name" name="name" required min-length="5"><br>
-                Comments: <input type="text" id="name" name="name" required min-length="5"><br>
-                Submit: <button></button>
-            </p>
-        </div>
-    </main>
+        <h1>Storm Center</h1>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                <legend>Personal Information</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required minlength="5"></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required minlength="5"></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Phone<input type="tel" name="phone" placeholder="5556667777" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label class="top">Storm Date<input type="date" name="completeDate"></label>
+                    <label class="top">Storm Type
+                        <select name="Type">
+                            <option value="">Please Select &#9662;</option>
+                            <option value="flood">Flash Flood</option>
+                            <option value="hail">Hail</option>
+                            <option value="hurricane">Hurricane</option>
+                            <option value="thunderstorm">Thunderstorm</option>
+                            <option value="tornado">Tornado</option>
+                         </select>
+                    </label>
+                    <label class="top">Storm Severity (Range 1-10)
+                        <select name="Type">
+                            <option value="">Please Select &#9662;</option>
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                            <option value="six">6</option>
+                            <option value="seven">7</option>
+                            <option value="eight">8</option>
+                            <option value="nine">9</option>
+                            <option value="ten">10</option>
+                        </select>
+                    </label>
+                    <label class="top">Storm Region
+                        <select name="Type">
+                            <option value="">Please Select &#9662;</option>
+                            <option value="preston">Preston</option>
+                            <option value="sodaSprings">Soda Springs</option>
+                            <option value="fishHaven">Fish Haven</option>
+                         </select>
+                    </label>
+                    <div class="sbs">User In-danger Level</div>
+                <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
+                <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
+                <label class="sbs"><input type="radio" name="danger" value="no">No</label>
+                </fieldset>
+                <fieldset class="submitBtn">
+                    <input type="submit" value="Post to Storm Center" class="submitBtn">
+                </fieldset>
+            </form>
+    
+              
+            
+        </main>
     <section>
                 <img class="map" src="images/ScreenShot2020-10-15at9.27.17AM.png" alt="map">
                 <div class="contact">
