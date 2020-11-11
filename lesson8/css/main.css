@@ -13,7 +13,7 @@ th, tfoot{
     background-color: #7fb9c2;
     color: white;
 }
-tbody:nth-child(odd) {
+tr:nth-child(odd) {
     background-color: #e7f0ed;
 } 
 td {
