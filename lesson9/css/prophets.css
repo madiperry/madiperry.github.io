@@ -1,0 +1,16 @@
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+    color: #48e5c2;
+}
+section{
+    background-color: #333333;
+    color: #48e5c2;
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    max-width: 25em;
+}
