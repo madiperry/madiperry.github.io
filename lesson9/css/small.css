@@ -51,7 +51,7 @@ nav {
     padding:0;
 }
 .navigation li {
-    display:block;
+    display: block;
     flex: 1 1 100%;
 }
 nav ul.hide {
@@ -90,11 +90,14 @@ main {
     margin: 1em;
     text-align: left;
 }
-
+h1{
+    font-size: 3.5em;
+    text-align: center;
+}
 h2{
- font-size: 3em;
- text-align: center;
- padding-bottom: 1em;
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 1em;
 }
 h3{
     font-size: 1.2em;
@@ -115,6 +118,12 @@ section {
     font-size: 1em;
     padding: 1em;
     margin:1em;
+}
+div section{
+    border: 2px solid #ffbf00;
+    display: inline-block;
+    width: 27%;
+    padding: 1em;
 }
 section img.map {
     float: left;

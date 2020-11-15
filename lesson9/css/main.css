@@ -1,0 +1,27 @@
+table, th, td {
+    border: 0.5px solid white;
+    border-collapse: collapse;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding: 0.2em;
+} 
+th, tfoot{
+    background-color: #628ca6;
+    color: black;
+}
+.dblue{
+    background-color: #7fb9c2;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: #e7f0ed;
+} 
+td {
+    background-color: #e7ffed;
+}
+tbody{
+    background-color: #e7f0ed;
+}
+tfoot {
+    font-size: 12px;
+}
