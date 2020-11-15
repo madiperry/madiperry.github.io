@@ -121,9 +121,8 @@ section {
 }
 div section{
     border: 2px solid #ffbf00;
-    display: inline-block;
-    width: 27%;
-    padding: 1em;
+    padding: 3em;
+
 }
 section img.map {
     float: left;
