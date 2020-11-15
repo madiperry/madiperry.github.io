@@ -8,13 +8,13 @@ fetch(requestURL)
     const town = jsonObject['towns'];
     for (let i = 0; i < town.length; i++) {
       let card = document.createElement('section');
-      let h2 = document.createElement('h2');
+      let h2 = document.createElement('h3');
       let photo = document.createElement('img');
-      let motto = document.createElement('p');
+      let motto = document.createElement('h3');
       let founded = document.createElement('p');
       let population = document.createElement('p');
       let rainfall = document.createElement('p');
-      let events = document.createElement('p');
+      let events = document.createElement('div');
 
       h2.textContent = town[i].name;
       motto.textContent = town[i].motto;
