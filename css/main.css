@@ -3,7 +3,7 @@ body {
     line-height: 1.5;
     display: grid;
     grid-template-columns: 10em 10em 10em 10em;
-    grid-template-rows: 5em 11em 4em;
+    grid-template-rows: 5em 20em 4em;
     font-family: 'Courier New', Courier, monospace;
 }
 img{
