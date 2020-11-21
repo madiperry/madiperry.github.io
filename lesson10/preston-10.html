@@ -43,20 +43,33 @@
             <p>
               Currently: <span id="curcon"></span><br>
               Temperature: <span id="current-temp"></span>&deg;</span><br>
-              Humidity: <span id="humidity"></span>&deg;<br>
+              Humidity: <span id="humidity"></span>%<br>
               Wind Chill: <span id="windChill"></span><br>
-              Wind Speed: <span id="winds"></span>mph<br>
+              Wind Speed: <span id="winds"></span> mph<br>
             </p>
           </div>
         <section class="forcast">
             <h4>Five day Forcast</h4>
-                <ul class="forcastImages">
-                    <li> 1<br><img id="one" src="images/cloud.png" alt="cloud image" width="50"></li>
-                    <li> 2<br><img id="two" src="images/sun.png" alt="Sun image" width="50"></li>
-                    <li> 3<br><img id="three" src="images/cloud.png" alt="cloud image" width="50"></li>
-                    <li> 4<br><img id="four" src="images/cloud.png" alt="cloud image" width="50"></li>
-                    <li> 5<br><img id="five" src="images/Rain.png" alt="Rain image" width="50"></li>
-                </ul>
+                <section>
+                  <div class="first"><span id="fdayone"></span></div>
+                  <div class="first"><span id="fdaytwo"></span></div>
+                  <div class="first"><span id="fdaythree"></span></div>
+                  <div class="first"><span id="fdayfour"></span></div>
+                  <div class="first"><span id="fdayfive"></span></div>
+                
+                  <div class="ficon"><img src="" alt="" class="fimg"></div>
+                  <div class="ficon"><img src="" alt="" class="fimg"></div>
+                  <div class="ficon"><img src="" alt="" class="fimg"></div>
+                  <div class="ficon"><img src="" alt="" class="fimg"></div>
+                  <div class="ficon"><img src="" alt="" class="fimg"></div>
+                  
+                  <div class="ftemp"><span id="fortemp"></span></div>
+                  <div class="ftemp"><span id="fortemp"></span></div>
+                  <div class="ftemp"><span id="fortemp"></span></div>
+                  <div class="ftemp"><span id="fortemp"></span></div>
+                  <div class="ftemp"><span id="fortemp"></span></div>
+                  
+                </section>
         </section>
         <section class="article">
             <h4>Article Title</h4>
@@ -82,7 +95,7 @@
       <script src="js/script.js"></script>
     <script src="js/datescript.js"></script>
     <script src="js/windChill.js"></script>
-    <script src="js/forcastapi.js"></script>
+    <script src="js/weatherapi.js"></script>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>

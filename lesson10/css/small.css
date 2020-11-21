@@ -100,6 +100,18 @@ main figure.hero img{
     padding-left: 0.5em;
     padding-bottom: 2em;
 }
+div.first{
+    display: inline;
+}
+div{
+    display: block;
+}
+div.ficon{
+    display: inline;
+}
+div.ftemp{
+    display: inline;
+}
 ul.forcastImages {
     padding: 1em;
     margin: 0;
