@@ -108,8 +108,8 @@ div.first{
     margin: 1em;
     padding: 1em;
     text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 div.ficon{
     display: inline;
@@ -121,8 +121,8 @@ div.ftemp{
     margin: 1em;
     padding: 1em;
     text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 ul.forcastImages {
     padding: 1em;
