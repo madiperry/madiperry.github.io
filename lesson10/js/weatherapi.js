@@ -17,7 +17,7 @@ fetch(apiURL)
 
         let t = (Math.round(jsObject.main.temp));
         let s = (Math.round(jsObject.main.speed));;
-        if (t >= 50 && s >= 3) {
+        if (t <= 50 && s >= 3) {
             let c = (35.74 + (0.6215 * t)) - (35.75 * (Math.pow(s, 0.16))) + (0.4275 * (t * (Math.pow (s, 0.16))));
             chill=Math.round(c);
         } else{
@@ -34,7 +34,7 @@ fetch(forecastURL)
 
 
         let first = document.getElementsByClassName("first");
-        let ficon = document.getElementsByClassName("ficon");
+        let fimg = document.getElementsByClassName("fimg");
         let forecast = jsObject.list.filter(item => item.dt_txt.includes("18:00:00"));
         
         for (let day=0; day< forecast.length; day++) {
@@ -42,10 +42,10 @@ fetch(forecastURL)
 
             first[day].innerHTML = weekday[d.getDay()];
 
-            const fIcon = 'https://openweathermap.org/img/w/' + forecast[day].weather[0].icon + '.png';
+            const fimg = 'https://openweathermap.org/img/w/' + forecast[day].weather[0].img + '.png';
             const description = forecast[day].weather[0].description;
-            ficon[day].setAttribute('src', fIcon);
-            ficon[day].setAttribute('alt', description);
+            fimg[day].setAttribute('src', fimg);
+            fimg[day].setAttribute('alt', description);
 
             fortemp[day].innerHTML = Math.round(forecast[day].main.temp) + "&deg;F"; 
         }
