@@ -93,7 +93,9 @@ main figure.hero img{
     width: 100%;
     margin: 0 0 0 2%;
 }
-
+h4{
+    font-size: 1.2em;
+}
 .forcast {
     border: 1.5px solid #ffbf00;
     margin: 0.7em;
@@ -102,6 +104,8 @@ main figure.hero img{
 }
 div.first{
     display: inline;
+    background-color: #ffbf00;
+    padding-left: 1em;
 }
 div{
     display: block;
