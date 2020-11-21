@@ -6,6 +6,7 @@ fetch(apiURL)
     .then(jsObject => {
         console.log(jsObject);
     
+        const curcon = document.querySelector('#curcon');
         const curtemp = document.querySelector('#current-temp');
         const hum = document.querySelector('#humidity');
         const ws= document.querySelector('#winds');
@@ -13,6 +14,8 @@ fetch(apiURL)
 
         curtemp.innerHTML = jsObject.main.temp;
         hum.innerHTML = jsObject.main.humidity;
+        ws.innerHTML = jsObject.wind.speed;
+        curcon.innerHTML = jsObject.weather.main;
 
         const iconsrc = 'https://openweathermap.org/img/w/$(jsObject.weather[0].icon).png';
         
