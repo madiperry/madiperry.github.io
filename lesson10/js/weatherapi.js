@@ -25,14 +25,7 @@ fetch(forecastURL)
     .then(jsObject => {
         console.log(jsObject);
 
-        let weekday = new Array(7);
-        weekday[0] = "Sun";
-        weekday[1] = "Mon";
-        weekday[2] = "Tue";
-        weekday[3] = "Wed";
-        weekday[4] = "Thur";
-        weekday[5] = "Fri";
-        weekday[6] = "Sat";
+        let weekday = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
 
 
         let first = document.getElementsByClassName("first");
