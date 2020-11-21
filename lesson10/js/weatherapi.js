@@ -10,7 +10,6 @@ fetch(apiURL)
         const curtemp = document.querySelector('#current-temp');
         const hum = document.querySelector('#humidity');
         const ws= document.querySelector('#winds');
-        const weathericon = document.querySelector('#icon');
 
         curtemp.innerHTML = (Math.round(jsObject.main.temp));
         hum.innerHTML = jsObject.main.humidity;

@@ -104,17 +104,25 @@ h4{
 }
 div.first{
     display: inline;
-    background-color: #ffbf00;
-    padding-left: 1em;
-}
-div{
-    display: block;
+    background-color: #333333;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 div.ficon{
     display: inline;
+    margin: 1em;
+    padding: 1em;
 }
 div.ftemp{
     display: inline;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 ul.forcastImages {
     padding: 1em;
