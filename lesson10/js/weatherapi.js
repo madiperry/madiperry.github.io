@@ -4,7 +4,6 @@ const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473
 fetch(apiURL)
     .then(response => response.json())
     .then(jsObject => {
-        console.log(jsObject);
     
         const curcon = document.querySelector('#curcon');
         const curtemp = document.querySelector('#current-temp');
@@ -16,7 +15,14 @@ fetch(apiURL)
         ws.innerHTML = jsObject.wind.speed;
         curcon.innerHTML = jsObject.weather[0].main;
 
-
+        let t = (Math.round(jsObject.main.temp));
+        let s = (Math.round(jsObject.main.speed));;
+        if (t >= 50 && s >= 3) {
+            let c = (35.74 + (0.6215 * t)) - (35.75 * (Math.pow(s, 0.16))) + (0.4275 * (t * (Math.pow (s, 0.16))));
+            chill=Math.round(c);
+        } else{
+            chill="N/A"
+        }
     });
 
 fetch(forecastURL)
@@ -30,8 +36,7 @@ fetch(forecastURL)
         let first = document.getElementsByClassName("first");
         let ficon = document.getElementsByClassName("ficon");
         let forecast = jsObject.list.filter(item => item.dt_txt.includes("18:00:00"));
-        let ftemp = document.getElementsByClassName("fortemp");
-
+        
         for (let day=0; day< forecast.length; day++) {
             let d = new Date(forecast[day].dt_txt);
 
