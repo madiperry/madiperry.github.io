@@ -121,8 +121,8 @@ div.ftemp{
     margin: 1em;
     padding: 1em;
     text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 ul.forcastImages {
     padding: 1em;

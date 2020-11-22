@@ -34,7 +34,7 @@ fetch(forecastURL)
 
 
         let first = document.getElementsByClassName("first");
-        let fimg = document.getElementsByClassName("fimg");
+        let ficon = document.getElementsByClassName("ficon");
         let forecast = jsObject.list.filter(item => item.dt_txt.includes("18:00:00"));
         
         for (let day=0; day< forecast.length; day++) {
@@ -42,10 +42,10 @@ fetch(forecastURL)
 
             first[day].innerHTML = weekday[d.getDay()];
 
-            const fimg = 'https://openweathermap.org/img/w/' + forecast[day].weather[0].img + '.png';
+            const fIcon = 'https://openweathermap.org/img/w/' + forecast[day].weather[0].icon + '.png';
             const description = forecast[day].weather[0].description;
-            fimg[day].setAttribute('src', fimg);
-            fimg[day].setAttribute('alt', description);
+            ficon[day].setAttribute('src', fIcon);
+            ficon[day].setAttribute('alt', description);
 
             fortemp[day].innerHTML = Math.round(forecast[day].main.temp) + "&deg;F"; 
         }
