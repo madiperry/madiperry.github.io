@@ -30,7 +30,7 @@ header {
     text-align: center;
     width: 100%;
 }
-header img {
+img.headimg {
     float: left;
     padding-top: .5em;
     padding-left: 1.5em;
@@ -80,7 +80,7 @@ main{
 }
 .weatherSummary {
     border: 1.5px solid #ffbf00;
-    margin: 0.7em;
+    margin: 0.5em;
     padding-left: 2em;
     padding-right: 2em;
     font-size: 16px;
@@ -102,27 +102,13 @@ h4{
     padding-left: 0.5em;
     padding-bottom: 2em;
 }
-div.first{
-    display: inline;
+section.one, .two, .three, .four, .five{
+    display: inline-block;
     background-color: #333333;
-    margin: 1em;
-    padding: 1em;
     text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-div.ficon{
-    display: inline;
-    margin: 1em;
-    padding: 1em;
-}
-div.ftemp{
-    display: inline;
-    margin: 1em;
-    padding: 1em;
-    text-align: center;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    margin-left: 1em;
 }
 ul.forcastImages {
     padding: 1em;

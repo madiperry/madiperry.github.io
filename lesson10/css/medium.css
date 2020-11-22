@@ -1,5 +1,5 @@
 /* 35em is also 560px when basefont is 16px */
-@media only screen and (min-width: 32rem) {
+@media only screen and (min-width: 37rem) {
 
     nav button{
         display: none;
@@ -29,12 +29,12 @@
         font-size: 20px;
         padding: 1em;
     }
-    header img {
+   img.headimg {
         float: left;
         width: 100px;
         padding-top: .5em;
         padding-left: 1.5em;
-        margin-left: 2em;
+        
     }
     nav {
         font-size: 19px;
@@ -51,32 +51,11 @@
         color: #ffbf00;
         font-size: 12px;
     }
-    .forcast{
-        border: 2px solid #ffbf00;
-    }
-    .forcastImages{
-        padding: 0.1em;
-    }
-    #one {
-        width: 85px;
-        margin-left: 0;
-        padding: 0.2em;
-    }
-    #two {
-        width: 85px;
-        padding: 0.2em;
-    }
-    #three {
-        width: 85px;
-        padding: 0.2em;
-    }
-    #four {
-        width: 85px;
-        padding: 0.2em;
-    }
-    #five {
-        width: 85px;
-        padding: 0.2em;
+    section.one, .two, .three, .four, .five{
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        font-size: 1.2em;
+        margin-left: 2em;
     }
     .article{
         border: 2px solid #ffbf00;

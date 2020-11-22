@@ -18,14 +18,14 @@
     }
     header{
         font-size: 20px;
-        padding: 2em;
+        padding: 2.5em;
     }
-    header img {
+    img.headimg {
         float: left;
         width: 150px;
-        padding-top: .5em;
+        padding-top: .2em;
         padding-left: 1.5em;
-        margin-left: 6em;
+        margin-left: 2em;
     }
     .hero {
         max-width: 900px;
@@ -43,31 +43,11 @@
         background-color: #333;
         color: #ffbf00;
     }
-    .forcast{
-        border: 4px solid #ffbf00;
-        padding-left: 1em;
-        font-size: 1.2em;
-    }
-    #one {
-        width: 100px;
-        margin-left: 3em;
-        padding: 0.5em;
-    }
-    #two {
-        width: 100px;
-        padding: 0.5em;
-    }
-    #three {
-        width: 100px;
-        padding: 0.5em;
-    }
-    #four {
-        width: 100px;
-        padding: 0.5em;
-    }
-    #five {
-        width: 100px;
-        padding: 0.5em;
+    section.one, .two, .three, .four, .five{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 1.5em;
+        margin-left: 4em;
     }
     .article{
         border: 4px solid #ffbf00;
