@@ -74,6 +74,9 @@
         margin-left: 15rem;
         margin-right: 15rem;
     }
+    form label.top input, form label.top select{
+    max-width: 20rem;
+    }
     /*----Gallery---*/
     figure{
         display: inline-block;

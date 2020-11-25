@@ -185,7 +185,7 @@ form label.top input, form label.top select{
     padding: .75rem;
     color: #48e5c2;
     width: 100%;
-    max-width: 20rem;
+    max-width: 15rem;
     background-color: rgba(0,0,0,0.1);
 }
 form label.sbs {
