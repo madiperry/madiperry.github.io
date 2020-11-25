@@ -40,8 +40,7 @@
         font-size: 19px;
     }
     .hero {
-        max-width: 600px;
-        padding-left: 2em;
+        max-width: 100%;
     }
     .weatherSummary {
         position: absolute;
