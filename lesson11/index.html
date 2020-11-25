@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Assignment portal for Madison Perry in WDD 230 At BYU-I">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="shortcut icon" href="images/Favicon.ico" type="image/x-icon">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="banner">Saturday= Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <img src="images/rsz_1rsz_iconfinder_wind_mill_2974393.png" width="75" alt="logo">
+        <h1>Winds of Preston</h1>
+        <h6>Where the winds never stop blowing</h6>
+    </header>
+    <nav class="navigation">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="navigation" class="hide">
+            <li><a href="">Home</a></li>
+            <li><a href="">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="">Storm Center</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+          <figure class="hero">
+              <img src="images/wdd230_image_franklinOriginal.jpeg" alt="hero image" sizes="94vw"
+              srcset="images/wdd230_image_franklinOriginal400.jpg 400w,
+                      images/wdd230_image_franklinOriginal600.jpg 600w,
+                      images/wdd230_image_franklinOriginal900.jpg 900w,
+                      images/wdd230_image_franklinOriginal1100.jpg 1100w">
+          </figure>
+            <h2>Welcome</h2>
+            <div class="cards"></div>
+            <section class="article">
+                <h4>Good Eats</h4>
+                <img src="images/rsz_2pexels-roman-odintsov-4871119.jpg" alt="Article Picture">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque assumenda magnam est. Magni optio autem veritatis, maiores itaque adipisci quaerat vitae rerum rem sunt illo neque, nobis ipsa voluptates facilis.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque assumenda magnam est. Magni optio autem veritatis, maiores itaque adipisci quaerat vitae rerum rem sunt illo neque, nobis ipsa voluptates facilis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque assumenda magnam est. Magni optio autem veritatis, maiores itaque adipisci quaerat vitae rerum rem sunt illo neque, nobis ipsa voluptates facilis.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque assumenda magnam est. Magni optio autem veritatis, maiores itaque adipisci quaerat vitae rerum rem sunt illo neque, nobis ipsa voluptates facilis.</p>
+            </section>
+        </main> 
+    <section>
+                <img class="map" src="images/ScreenShot2020-10-15at9.27.17AM.png" alt="map">
+                <div class="contact">
+                <h4>Contact information</h4>
+                <p>&#9993; madiperry@byui.edu</p>
+                <p>&#9742; 888-888-8888</p>
+                <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook" width="50"></a>
+                <a href="https://www.instagram.com/?hl=en"><img src="images/instagram.png" alt="instagram" width="50"></a>
+                </div>
+    </section>
+    <footer>
+            <p class="date"><strong>Today's Date: <span id="currentDate"></span></strong></p><br>
+            <p>&copy;2020 | Madison Perry | <a href="https://byui.edu">BYU-I Online Learning</a></p>
+            <script src="js/banner.js"></script>
+            <script src="js/script.js"></script>
+            <script src="js/datescript.js"></script>
+    </footer>
+            <script src="js/home.js"></script>
+    </body>
+</html>
