@@ -28,7 +28,7 @@ header {
     display: block;
     padding: 0.7em;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
 }
 img.headimg {
     float: left;
