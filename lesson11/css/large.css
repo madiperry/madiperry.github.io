@@ -70,7 +70,10 @@
     form label.sbs{
     padding: .4rem 0;
     }
-    
+    main form{
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
     /*----Gallery---*/
     figure{
         display: inline-block;
