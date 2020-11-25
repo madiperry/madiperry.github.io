@@ -71,4 +71,15 @@
         text-align: left;
         margin-left: 1em;
     }
+    /*--- Storm Center ----*/
+    
+    /*---Gallery---*/
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    figure{
+        margin: 0.5em;
+        text-align: center;
+    }
 }

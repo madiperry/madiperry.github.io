@@ -66,4 +66,17 @@
     p.date {
         text-align: center;
     }
+    /*----------- Storm Center ------------*/
+    form label.sbs{
+    padding: .4rem 0;
+    }
+    /*----Gallery---*/
+    figure{
+        display: inline-block;
+        margin-left: 0.5em;
+    }
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 } /*end large */
