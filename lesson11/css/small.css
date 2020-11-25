@@ -212,7 +212,6 @@ form label.top input:required:valid{
   /*---- Gallery ----*/
 h1 {
     padding: 1em;
-    text-align: center;
 }
 div{
     display: grid;
