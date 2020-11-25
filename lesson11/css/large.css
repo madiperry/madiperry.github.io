@@ -20,7 +20,7 @@
         font-size: 20px;
         padding: 2.5em;
     }
-    img.headimg {
+    header img {
         float: left;
         width: 150px;
         padding-top: .2em;
@@ -70,6 +70,7 @@
     form label.sbs{
     padding: .4rem 0;
     }
+    
     /*----Gallery---*/
     figure{
         display: inline-block;
