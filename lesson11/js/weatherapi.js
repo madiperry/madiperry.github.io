@@ -15,11 +15,12 @@ fetch(apiURL)
         ws.innerHTML = jsObject.wind.speed;
         curcon.innerHTML = jsObject.weather[0].main;
 
-        let t = (Math.round(jsObject.main.temp));
-        let s = (Math.round(jsObject.main.speed));;
+        let t = (parseFloat(jsObject.main.temp));
+        let s = (parseFloat(jsObject.main.speed));;
+        let chill="N/A";
         if (t <= 50 && s >= 3) {
-            let c = (35.74 + (0.6215 * t)) - (35.75 * (Math.pow(s, 0.16))) + (0.4275 * (t * (Math.pow (s, 0.16))));
-            chill=Math.round(c);
+            let f = (35.74 + (0.6215 * t)) - (35.75 * (Math.pow(s, 0.16))) + (0.4275 * (t * (Math.pow (s, 0.16))));
+            chill=Math.round(f);
         } else{
             chill="N/A";
         }

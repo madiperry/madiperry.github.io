@@ -96,6 +96,9 @@ main figure.hero img{
     width: 100%;
     margin: 0 0 0 2%;
 }
+.weathers{
+    display: inline-block;
+}
 h4{
     font-size: 1.2em;
 }
@@ -106,12 +109,12 @@ h4{
     padding-bottom: 2em;
 }
 section.one, .two, .three, .four, .five{
+    border: 1px solid #48e5c2;
     display: inline-block;
     background-color: #333333;
     text-align: center;
     padding-left: 0.7em;
     padding-right: 0.7em;
-    margin-left: 1em;
 }
 ul.forcastImages {
     padding: 1em;
@@ -125,6 +128,9 @@ ul li{
 }
 #one, #two, #three, #four, #five{
     margin: 0.5em;
+}
+div.cards{
+    max-width: 20%;
 }
 .article {
     border: 1.5px solid #ffbf00;
