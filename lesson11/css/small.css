@@ -35,7 +35,11 @@ header img {
     padding-left: 1.5em;
     margin-left: 0.1em;
 }
-nav button{
+.active{
+    background-color: #48e5c2;
+    color: white;
+}
+nav button {
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
