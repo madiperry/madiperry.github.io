@@ -95,6 +95,7 @@ main figure.hero {
 main figure.hero img{
     width: 100%;
     margin: 0 0 0 2%;
+
 }
 .weathers{
     display: inline-block;
@@ -231,7 +232,7 @@ div{
     background-color: #333333;
     margin: 0.5em;
 }
-figure{
+figure.g{
     background-color: #ffbf00;
     display: inline-block;
     margin: 2em;
