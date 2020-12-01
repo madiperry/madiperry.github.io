@@ -29,6 +29,9 @@ header {
     text-align: center;
     max-width: 100%;
 }
+h1 {
+    padding-bottom: 0;
+}
 header img {
     float: left;
     padding-top: .5em;
@@ -95,7 +98,6 @@ main figure.hero {
 main figure.hero img{
     width: 100%;
     margin: 0 0 0 2%;
-
 }
 .weathers{
     display: inline-block;
@@ -127,11 +129,14 @@ ul.forcastImages {
 ul li{
     text-align: center;
 }
-#one, #two, #three, #four, #five{
+
+div.cards section{
+    background-color: #333333;
+    padding: 1em;
     margin: 0.5em;
 }
-div.cards{
-    max-width: 20%;
+div.cards img{
+    max-width: 90%;
 }
 .article {
     border: 1.5px solid #ffbf00;
@@ -156,6 +161,7 @@ section img.map {
     display: inline-block;
     text-align: left;
     margin-left: 27%;
+    padding-bottom: 0.7em;
 }
 footer{
   font-size: 12px;

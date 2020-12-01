@@ -19,7 +19,7 @@
     nav ul li a{
         border: none;
         font-size: 0.75em;
-        padding: 0.2em;
+        padding: 0.7em;
         max-width: 100%;
         text-align: center;
         margin-left: 2em;
@@ -33,7 +33,6 @@
         width: 100px;
         padding-top: .5em;
         padding-left: 1.5em;
-        
     }
     nav {
         font-size: 19px;
@@ -54,6 +53,9 @@
         padding-bottom: 0.5em;
         font-size: 1.2em;
         margin: 0.25em;
+    }
+    div.cards section{
+        display: block;
     }
     .article{
         border: 2px solid #ffbf00;
