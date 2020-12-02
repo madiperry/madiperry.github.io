@@ -28,7 +28,6 @@
     .hero {
         max-width: 900px;
         padding: 3em;
-
     }
     h2 {
         padding-top: 2em;
@@ -42,9 +41,10 @@
         color: #ffbf00;
     }
     section.one, .two, .three, .four, .five{
-        font-size: 1.5em;
+        font-size: 1.2em;
         border: 1px solid #48e5c2;
         text-align: center;
+        margin: 0 auto;
     }
     .article{
         border: 4px solid #ffbf00;

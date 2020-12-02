@@ -115,9 +115,8 @@ section.one, .two, .three, .four, .five{
     border: 1px solid #48e5c2;
     display: inline-block;
     background-color: #333333;
-    text-align: center;
-    padding-left: 0.7em;
-    padding-right: 0.7em;
+   text-align: center;
+   padding: 0.2em;
 }
 ul.forcastImages {
     padding: 1em;
