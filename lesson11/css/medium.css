@@ -49,7 +49,6 @@
         font-size: 12px;
         display: block;
     }
-    
     section.one, .two, .three, .four, .five{
         padding-top: 0.5em;
         padding-bottom: 0.5em;
@@ -58,10 +57,11 @@
     }
     .article{
         border: 2px solid #ffbf00;
+
     }
     .article img {
         float: right;
-        width: 200px;
+        width: 150px;
         margin: 0;
         padding: 2em;
     }
