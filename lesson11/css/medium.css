@@ -47,6 +47,7 @@
         background-color: #333;
         color: #ffbf00;
         font-size: 12px;
+        display: block;
     }
     section.one, .two, .three, .four, .five{
         padding-top: 0.5em;
