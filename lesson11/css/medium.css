@@ -55,10 +55,6 @@
         font-size: 1.2em;
         margin: 0.25em;
     }
-    div.cards section{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
     .article{
         border: 2px solid #ffbf00;
     }
