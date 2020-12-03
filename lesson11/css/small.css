@@ -40,7 +40,7 @@ header img {
 }
 .active{
     background-color: #48e5c2;
-    color: white;
+    color: #333333;
 }
 nav button {
     margin: .2rem 2%;
