@@ -37,6 +37,7 @@ fetch(forecastURL)
         let first = document.getElementsByClassName("first");
         let ficon = document.getElementsByClassName("fimg");
         let forecast = jsObject.list.filter(item => item.dt_txt.includes("18:00:00"));
+        let fortemp = document.getElementsByClassName('fortemp');
         
         for (let day=0; day< forecast.length; day++) {
             let d = new Date(forecast[day].dt_txt);
