@@ -18,8 +18,8 @@ fetch(apiURL)
         let chill = document.querySelector('#windChill');
         let temp = parseFloat(jsObject.main.temp);
         let speed = parseFloat(jsObject.wind.speed);
-        
-        temp.innerHTML = jsObject.main.speed;
+
+        temp.innerHTML = jsObject.main.temp;
         speed.innerHTML = jsObject.wind.speed;
 
         if (temp <= 50 && speed >= 3) {
