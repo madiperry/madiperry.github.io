@@ -15,14 +15,13 @@ fetch(apiURL)
         ws.innerHTML = jsObject.wind.speed;
         curcon.innerHTML = jsObject.weather[0].main;
 
-        let t = (parseFloat(jsObject.main.temp));
-        let s = (parseFloat(jsObject.main.speed));;
-        let chill="N/A";
-        if (t <= 50 && s >= 3) {
-            let f = (35.74 + (0.6215 * t)) - (35.75 * (Math.pow(s, 0.16))) + (0.4275 * (t * (Math.pow (s, 0.16))));
-            chill=Math.round(f);
-        } else{
-            chill="N/A";
+        let temp = jsObject.main.temp;
+        let speed = jsObject.main.speed;
+        
+        if (temp <= 50 && speed >= 3) {
+            chill.innerHTML = (Math.round(parseFloat(35.74 + (0.6215 * temp)) - (35.75 * (Math.pow(speed, 0.16))) + (0.4275 * (temp * (Math.pow (speed, 0.16)))))) + "&deg;F";
+    } else {
+          return chill ="N/A";
         }
     });
 
@@ -48,6 +47,6 @@ fetch(forecastURL)
             ficon[day].setAttribute('src', fimg);
             ficon[day].setAttribute('alt', description);
 
-            fortemp[day].innerHTML = Math.round(forecast[day].main.temp) + "&deg;F"; 
+            forecast[day].innerHTML = Math.round(forecast[day].main.temp) + "&deg;F"; 
         }
     });
