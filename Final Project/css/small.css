@@ -77,3 +77,11 @@ nav ul li a:hover {
     background-color: #12355B;
     color: #B8f2E6;
 }
+section {
+    border: 3px solid #4A7C59;
+    margin: 1em;
+}
+footer{
+    background-color: #B8f2E6;
+    text-align: center;
+}
