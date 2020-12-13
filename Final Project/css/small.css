@@ -42,7 +42,8 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #B8f2E6;
+    color: #12355B;
+    display: block;
 }
 nav {
   background-color: #B8f2E6;

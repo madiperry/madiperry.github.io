@@ -37,48 +37,9 @@
     nav {
         font-size: 19px;
     }
-    .hero {
-        max-width: 100%;
-    }
-    .weatherSummary {
-        position: absolute;
-        top: 400px;
-        left: 150px;
-        background-color: #333;
-        color: #ffbf00;
-        font-size: 12px;
-        display: block;
-    }
-    section.one, .two, .three, .four, .five{
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        font-size: 1.2em;
-        padding-left: 0.2em;
-    }
-    .article{
-        border: 2px solid #ffbf00;
-
-    }
-    .article img {
-        float: right;
-        width: 150px;
-        margin: 0;
-        padding: 2em;
-    }
     .contact {
         display: inline-block;
         text-align: left;
         margin-left: 1em;
-    }
-    /*--- Storm Center ----*/
-    
-    /*---Gallery---*/
-    div{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    figure{
-        margin: 0.5em;
-        text-align: center;
     }
 }
