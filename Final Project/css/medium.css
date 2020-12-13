@@ -1,0 +1,84 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 800px) {
+
+    nav button{
+        display: none;
+    }
+    nav ul.hide{
+        display: block;
+    }
+    nav ul{
+        margin-left: 2%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li{
+        float: left;
+    }
+    nav ul li a{
+        border: none;
+        font-size: 0.75em;
+        padding: 0.7em;
+        max-width: 100%;
+        text-align: center;
+        margin-left: 2em;
+    }
+    header {
+        font-size: 20px;
+        padding: 1em;
+    }
+    header img {
+        float: left;
+        width: 100px;
+        padding-top: .5em;
+        padding-left: 1.5em;
+    }
+    nav {
+        font-size: 19px;
+    }
+    .hero {
+        max-width: 100%;
+    }
+    .weatherSummary {
+        position: absolute;
+        top: 400px;
+        left: 150px;
+        background-color: #333;
+        color: #ffbf00;
+        font-size: 12px;
+        display: block;
+    }
+    section.one, .two, .three, .four, .five{
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        font-size: 1.2em;
+        padding-left: 0.2em;
+    }
+    .article{
+        border: 2px solid #ffbf00;
+
+    }
+    .article img {
+        float: right;
+        width: 150px;
+        margin: 0;
+        padding: 2em;
+    }
+    .contact {
+        display: inline-block;
+        text-align: left;
+        margin-left: 1em;
+    }
+    /*--- Storm Center ----*/
+    
+    /*---Gallery---*/
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    figure{
+        margin: 0.5em;
+        text-align: center;
+    }
+}

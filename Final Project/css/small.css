@@ -1,0 +1,78 @@
+body {
+    background-color: #D5C5C8;
+    color: #12355B;
+    font-size: 16px;
+    line-height: 1.5em;
+    display: inline;
+    font-family: 'Courier Prime', Courier, monospace;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+div#banner {
+    display: none;
+    background-color: #FFC800;
+    color: #12355B;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+header {
+    color: #12355B;
+    background-color: #D5C5C8; 
+    display: block;
+    padding: 0.7em;
+    text-align: center;
+    max-width: 100%;
+}
+h1 {
+    padding-bottom: 0;
+}
+header img {
+    float: left;
+    padding-top: .5em;
+    padding-left: 1.5em;
+    margin-left: 0.1em;
+}
+.active{
+    background-color: #12355B;
+    color: #B8f2E6;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #B8f2E6;
+}
+nav {
+  background-color: #B8f2E6;
+  overflow: hidden;
+}
+.navigation li {
+    display:block;
+    flex: 1 1 100%;
+}
+nav ul.hide {
+    display: none;
+}
+nav a {
+    color:#12355B;
+    padding: 1px 2px;
+    text-decoration: none;
+    font-size: 14px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    display: block;
+    flex: 1 1 100%;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    border-top: 1px solid rgba(0,0,0,0.3)
+}
+nav ul li a:hover {
+    background-color: #12355B;
+    color: #B8f2E6;
+}
