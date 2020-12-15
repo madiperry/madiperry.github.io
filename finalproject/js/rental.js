@@ -9,7 +9,7 @@ fetch(requestURL)
         const price = jsonObject['price'];
         for (let i = 0; i < price.length; i++ ) {
           let card = document.createElement('section');
-          let h2 = document.createElement('h2');
+          let h3 = document.createElement('h2');
           let maxpersons = document.createElement('p');
           let rentaltype = document.createElement('p');
           let reshalfday = document.createElement('p');
@@ -18,7 +18,7 @@ fetch(requestURL)
           let walkfullday =document.createElement('p');
           let image = document.createElement("img");
     
-          h2.textContent = price[i].rentaltype;
+          h3.textContent = price[i].rentaltype;
           maxpersons.textContent ='Max Persons: '+ price[i].maxpersons;
           reshalfday.textContent = 'Reservation Half-day: '+ price[i].reshalfday;
           resfullday.textContent = 'Reservation Fullday: '+ price[i].resfullday;
@@ -27,7 +27,7 @@ fetch(requestURL)
           image.setAttribute('src', price[i].imagesrc);
           image.setAttribute('alt', price[i].rentaltype);
     
-          card.appendChild(h2);
+          card.appendChild(h3);
           card.appendChild(maxpersons);
           card.appendChild(reshalfday);
           card.appendChild(resfullday);

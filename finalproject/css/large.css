@@ -50,14 +50,10 @@
     nav {
         font-size: 19px;
     }
-    .weatherSummary {
-        position: absolute;
-        top: 400px;
-        left: 150px;
-        background-color: #333;
-        color: #ffbf00;
-        font-size: 12px;
-        display: block;
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
     .contact {
         display: inline-block;
