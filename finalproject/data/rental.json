@@ -2,11 +2,11 @@
     "price": [
         {
     "rentaltype": "~Honda Metro Scooter",
-    "maxpersons":  1,
-    "reshalfday": 20,
-    "resfullday": 30,
-    "walkhalfday": 25,
-    "walkfullday": 35,
+    "maxpersons":  "1",
+    "reshalfday": "$20",
+    "resfullday": "$30",
+    "walkhalfday": "$25",
+    "walkfullday": "$35",
     "imgsrc": "../images/hondametroscooter.jpg"
     },
     {
