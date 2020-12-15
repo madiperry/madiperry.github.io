@@ -1,0 +1,58 @@
+{
+    "price": [
+        {
+    "rentaltype": "~Honda Metro Scooter",
+    "maxpersons":  1,
+    "reshalfday": 20,
+    "resfullday": 30,
+    "walkhalfday": 25,
+    "walkfullday": 35,
+    "imgsrc": "../images/hondametroscooter.jpg"
+    },
+    {
+    "rentaltype": "~Honda Dio Scooter",
+    "maxpersons":  "2",
+    "reshalfday": "$30",
+    "resfullday": "$40",
+    "walkhalfday": "$35",
+    "walkfullday": "$45",
+    "imgsrc": "../images/hondadioscooter.jpg"
+    },
+    {
+    "rentaltype": "~Honda PCX150 Scooter",
+    "maxpersons":  "2",
+    "reshalfday": "$40",
+    "resfullday": "$50",
+    "walkhalfday": "45",
+    "walkfullday": "55",
+    "imgsrc": "../images/hondapcx150scooter.jpg"
+    },
+    {
+    "rentaltype": "Honda Pioneer ATV",
+    "maxpersons":  "4",
+    "reshalfday": "50",
+    "resfullday": "70",
+    "walkhalfday": "60",
+    "walkfullday": "80",
+    "imgsrc": "../images/hondapioneeratv.jpg"
+    },
+    {
+    "rentaltype": "Jeep Wrangler- 4 door with a/c",
+    "maxpersons":  "5",
+    "reshalfday": "70",
+    "resfullday": "100",
+    "walkhalfday": "85",
+    "walkfullday": "125",
+    "imgsrc": "../images/jeepwrangler4.jpg"
+    },
+    {
+    "rentaltype": "Jeep Wrangler – 2 door",
+    "maxpersons":  "4",
+    "reshalfday": "60",
+    "resfullday": "85",
+    "walkhalfday": "70",
+    "walkfullday": "90",
+    "imgsrc": "../images/jeepwrangler2.jpg"
+    }
+    ]
+    }
