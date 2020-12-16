@@ -11,7 +11,6 @@ fetch(requestURL)
           let card = document.createElement('section');
           let h3 = document.createElement('h2');
           let maxpersons = document.createElement('p');
-          let rentaltype = document.createElement('p');
           let reshalfday = document.createElement('p');
           let resfullday =document.createElement('p');
           let walkhalfday =document.createElement('p');
