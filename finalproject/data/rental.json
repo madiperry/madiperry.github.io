@@ -7,7 +7,7 @@
     "resfullday": "$30",
     "walkhalfday": "$25",
     "walkfullday": "$35",
-    "photosrc": "../images/hondametro.png"
+    "imagesrc": "../images/hondametro.png"
     },
     {
     "rentaltype": "~Honda Dio Scooter",
@@ -16,7 +16,7 @@
     "resfullday": "$40",
     "walkhalfday": "$35",
     "walkfullday": "$45",
-    "photosrc": "../images/hondadio.png"
+    "imagesrc": "../images/hondadio.png"
     },
     {
     "rentaltype": "~Honda PCX150 Scooter",
@@ -25,7 +25,7 @@
     "resfullday": "$50",
     "walkhalfday": "$45",
     "walkfullday": "$55",
-    "photosrc": "../images/hondapcx150.png"
+    "imagesrc": "../images/hondapcx.jpg"
     },
     {
     "rentaltype": "Honda Pioneer ATV",
@@ -34,7 +34,7 @@
     "resfullday": "$70",
     "walkhalfday": "$60",
     "walkfullday": "$80",
-    "photosrc": "../images/hondapioneeratv.jpg"
+    "imagesrc": "../images/hondapioneeratv.jpg"
     },
     {
     "rentaltype": "Jeep Wrangler- 4 door with a/c",
@@ -43,7 +43,7 @@
     "resfullday": "$100",
     "walkhalfday": "$85",
     "walkfullday": "$125",
-    "photosrc": "../images/jeepwrangler4.jpg"
+    "imagesrc": "../images/jeepwrangler4.jpg"
     },
     {
     "rentaltype": "Jeep Wrangler – 2 door",
@@ -52,7 +52,7 @@
     "resfullday": "$85",
     "walkhalfday": "$70",
     "walkfullday": "$90",
-    "photosrc": "../images/jeepwrangler2.jpg"
+    "imagesrc": "../images/jeepwrangler2.jpg"
     }
     ]
     }
