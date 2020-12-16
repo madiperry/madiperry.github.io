@@ -1,5 +1,6 @@
 /* 35em is also 560px when basefont is 16px */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 900px) {
+    
     nav {
         padding-left: 3.5rem;
     }
@@ -21,10 +22,9 @@
     nav ul li a{
         border: none;
         font-size: 1.3em;
-        padding: 0.7em;
         max-width: 100%;
-        text-align: center;
-        margin-left: 2em;
+        justify-content: center;
+        padding: 1em 2em 1em 2em;
     }
     header {
         font-size: 20px;
