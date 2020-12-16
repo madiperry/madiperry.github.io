@@ -7,7 +7,7 @@
     "resfullday": "$30",
     "walkhalfday": "$25",
     "walkfullday": "$35",
-    "imagesrc": "../images/hondametro.png"
+    "imagesrc": "../images/hondametro.jpg"
     },
     {
     "rentaltype": "~Honda Dio Scooter",
@@ -16,7 +16,7 @@
     "resfullday": "$40",
     "walkhalfday": "$35",
     "walkfullday": "$45",
-    "imagesrc": "../images/hondadio.png"
+    "imagesrc": "../images/hondadio.jpg"
     },
     {
     "rentaltype": "~Honda PCX150 Scooter",
