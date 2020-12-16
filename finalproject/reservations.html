@@ -42,29 +42,41 @@
            </section>
            <section>
            <form>
-            <h2>Storm Center</h2>
-            <form method="get" action="thanks.html">
+            <h2>Rental Form</h2>
+            <form method="get" action="confirmation.html">
                 <fieldset>
                 <legend><h3>Personal Information</h3></legend>
                     <label class="top">First Name*<input type="text" name="fname" required minlength="5"></label>
                     <label class="top">Last Name*<input type="text" name="lname" required minlength="5"></label>
                     <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
                     <label class="top">Phone<input type="tel" name="phone" placeholder="5556667777" required></label>
-                </fieldset>
-                <fieldset>
-                    <legend><h4>Storm Information</h4></legend>
-                    <label class="top">Storm Date<input type="date" name="completeDate"></label>
-                    <label class="top">Storm Type
+                    <label class="top">Home Country
                         <select name="Type">
                             <option value="">Please Select &#9662;</option>
-                            <option value="flood">Flash Flood</option>
-                            <option value="hail">Hail</option>
-                            <option value="hurricane">Hurricane</option>
-                            <option value="thunderstorm">Thunderstorm</option>
-                            <option value="tornado">Tornado</option>
+                            <option value="usa">United States</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="mexico">Mexico</option>
+                            <option value="canada">Canada</option>
+                            <option value="russia">Russia</option>
+                            <option value="brazil">Brazil</option>
                          </select>
                     </label>
-                    <label class="top">Storm Severity (Range 1-10)
+                </fieldset>
+                <fieldset>
+                    <legend><h4>Rental Information</h4></legend>
+                    <label class="top">Trip Date*<input type="date" name="completeDate"></label> to <input type="date" name="completeDate"></label>
+                    <label class="top">Vehicle type
+                        <select name="Type">
+                            <option value="">Please Select &#9662;</option>
+                            <option value="metro">~Honda Metro Scooter</option>
+                            <option value="dio">~Honda Dio Scooter</option>
+                            <option value="pcx">~Honda PCX150 Scooter</option>
+                            <option value="atv">Honda Pioneer ATV</option>
+                            <option value="wrangler4">Jeep Wrangler- 4 door with a/c</option>
+                            <option value="wrangler2">Jeep Wrangler – 2 door</option>
+                        </select>
+                    </label>
+                    <label class="top">Number of People:
                         <select name="Type">
                             <option value="">Please Select &#9662;</option>
                             <option value="one">1</option>
@@ -72,28 +84,26 @@
                             <option value="three">3</option>
                             <option value="four">4</option>
                             <option value="five">5</option>
-                            <option value="six">6</option>
-                            <option value="seven">7</option>
-                            <option value="eight">8</option>
-                            <option value="nine">9</option>
-                            <option value="ten">10</option>
-                        </select>
-                    </label>
-                    <label class="top">Storm Region
-                        <select name="Type">
-                            <option value="">Please Select &#9662;</option>
-                            <option value="preston">Preston</option>
-                            <option value="sodaSprings">Soda Springs</option>
-                            <option value="fishHaven">Fish Haven</option>
                          </select>
                     </label>
-                    <div class="sbs">User In-danger Level</div>
-                <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
-                <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
-                <label class="sbs"><input type="radio" name="danger" value="no">No</label>
-                </fieldset>
+                    <label class="top">Cruise line:
+                        <select name="Type">
+                            <option value="">Please Select &#9662;</option>
+                            <option value="carnival">Carnival</option>
+                            <option value="Royal">Royal Caribbean</option>
+                            <option value="holland">Holland America</option>
+                            <option value="disney">Disney</option>
+                            <option value="crystal">Crystal Cruises</option>
+                            <option value="costa">Costa</option>
+                            <option value="celebrity">Celebrity Cruises</option>
+                            <option value="princess">Princess</option>
+                            <option value="norwegian">Norwegian Cruise</option>
+                    </label>
+                    <label class="top">Special Accomodations
+                        <input name="comments"></input>
+                        </label>
                 <fieldset class="submitBtn">
-                    <input type="submit" value="Post to Storm Center" class="submitBtn">
+                    <input type="submit" value="Reserve Your Scooter Now!" class="submitBtn">
                 </fieldset>
             </form>
     
