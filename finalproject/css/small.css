@@ -100,6 +100,54 @@ section {
     padding-left: 1.5em;
     text-align: center;
 }
+.info ul li {
+    list-style-type: none;
+}
+form fieldset{
+    margin: 2rem 1rem;
+    border: 1px solid #12355B;
+    padding: 1rem;
+}
+form legend{
+    color: #12355B;
+    margin: 0.1rem;
+    padding: 1rem;
+}
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color:#12355B;
+    font-size: 0.8rem;
+}
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #12355B;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #12355B;
+    width: 100%;
+    max-width: 15rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form input.submitBtn{
+    border: none;
+    background-color:#12355B;
+    color: white;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    margin-left: 2.5em;
+    width: 100%;
+    max-width: 15rem;
+    margin-top: 1rem;
+}
+form label.top input:required{
+    border-left: red solid 6px;
+}
+form label.top input:required:valid{
+    border-left: #12355B solid 6px;
+}
 .weather {
     display: block;
     text-align: center;
@@ -138,7 +186,10 @@ section {
     grid-template-columns: 1fr;
     text-align: center;
 }
-footer{
+p {
+    margin: 1em;
+}
+footer {
     background-color: #B8f2E6;
     text-align: center;
 }
