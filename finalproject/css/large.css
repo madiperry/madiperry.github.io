@@ -67,6 +67,11 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
+    .social {
+        width: 100px;
+        padding: 1em;
+        margin-left: 0.5em;
+    }
     .contact {
         display: inline-block;
         text-align: left;

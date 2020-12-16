@@ -81,7 +81,7 @@ h2 {
    margin-left: 1.5rem;
 }
 h3, h4, h5, h6 {
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 section {
     border: 3px solid #4A7C59;
@@ -91,7 +91,7 @@ section {
     display: inline-block;
     padding: 0 1em 0 1em;
 }
-.forcast {
+.forecast {
     display: block;
     padding: 0.5em 1em 0.5em 1em;
     text-align: center;
@@ -111,9 +111,23 @@ section {
     text-align: center;
     padding: 0.5em 3em 0.5em 3em;
 }
+.social {
+    padding: 1em 0.7em 1em 0.7em;
+}
+.sheading {
+    font-size: 1.3em;
+}
 .summary {
     text-align: center;
     padding-left: 1em;
+    display: block;
+}
+.simages{
+    display: inline-block;
+}
+.summary img {
+    display: inline-block;
+    padding: 1em;
 }
 .cards {
     display: grid;
