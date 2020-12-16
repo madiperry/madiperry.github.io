@@ -1,5 +1,4 @@
 body {
-    background-color: #D5C5C8;
     color: #12355B;
     font-size: 16px;
     line-height: 1.5em;
@@ -18,7 +17,7 @@ div#banner {
 }
 header {
     color: #12355B;
-    background-color: #D5C5C8; 
+    
     display: block;
     padding: 0.7em;
     text-align: center;
@@ -81,15 +80,37 @@ nav ul li a:hover {
 h2 {
    margin-left: 1.5rem;
 }
+h3, h4, h5, h6 {
+    font-size: 1.5em;
+}
 section {
     border: 3px solid #4A7C59;
     margin: 1em;
 }
+.one, .two, .three {
+    display: inline-block;
+    padding: 0 1em 0 1em;
+}
+.forcast {
+    display: inline-block;
+    padding: 0.5em 1em 0.5em 1em;
+    text-align: center;
+}
 .info {
     padding-left: 1.5em;
 }
+.weather {
+    display: inline-block;
+    padding: 0.5em 3em 0.5em 3em;
+}
 .contact {
     padding-left: 3em;
+    display: inline-block;
+    padding: 0.5em 3em 0.5em 3em;
+}
+.summary {
+    text-align: center;
+    padding-left: 1em;
 }
 .cards {
     display: grid;
