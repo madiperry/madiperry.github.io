@@ -15,7 +15,7 @@ fetch(requestURL)
           let resfullday =document.createElement('p');
           let walkhalfday =document.createElement('p');
           let walkfullday =document.createElement('p');
-          let image = document.createElement("img");
+          let photo = document.createElement("img");
     
           h3.textContent = price[i].rentaltype;
           maxpersons.textContent ='Max Persons: '+ price[i].maxpersons;
@@ -23,8 +23,10 @@ fetch(requestURL)
           resfullday.textContent = 'Reservation Fullday: '+ price[i].resfullday;
           walkhalfday.textContent ='Walk-in Half-day: '+ price[i].walkhalfday;
           walkfullday.textContent = 'Walk-in Fullday: '+ price[i].walkfullday;
-          image.setAttribute('src', price[i].imagesrc);
-          image.setAttribute('alt', price[i].rentaltype);
+          photo.setAttribute('src', '/finalproject/images/' + price[i].imagesrc);
+          photo.setAttribute('alt', price[i].rentaltype);
+
+       
     
           card.appendChild(h3);
           card.appendChild(maxpersons);
@@ -32,7 +34,7 @@ fetch(requestURL)
           card.appendChild(resfullday);
           card.appendChild(walkhalfday);
           card.appendChild(walkfullday);
-          card.appendChild(image);
+          card.appendChild(photo);
         
         document.querySelector('div.cards').appendChild(card);
         }

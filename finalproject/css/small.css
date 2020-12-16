@@ -125,6 +125,10 @@ section {
 .simages{
     display: inline-block;
 }
+.simages:hover {
+    border: 1px solid #333333;
+    color: #B8f2E6;
+}
 .summary img {
     display: inline-block;
     padding: 1em;
