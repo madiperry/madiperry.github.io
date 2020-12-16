@@ -47,7 +47,7 @@
     },
     {
     "rentaltype": "Jeep Wrangler – 2 door",
-    "maxpersons":  "$4",
+    "maxpersons":  "4",
     "reshalfday": "$60",
     "resfullday": "$85",
     "walkhalfday": "$70",

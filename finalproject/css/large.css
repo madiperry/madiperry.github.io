@@ -1,7 +1,7 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 1300px) {
     body {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     nav ul li a{
         font-size: 20px;
@@ -10,7 +10,7 @@
         text-align: center;
     }
     nav {
-        font-size: 19px;
+        font-size: 10px;
         padding-left: 5rem;
     }
     div.banner {
