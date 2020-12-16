@@ -1,7 +1,7 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 1300px) {
     body {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     nav ul li a{
         font-size: 20px;
@@ -57,6 +57,9 @@
         display: inline-block;
     }
     .weather {
+        display: inline-block;
+    }
+    .forecast {
         display: inline-block;
     }
     .cards {

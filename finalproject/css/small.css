@@ -92,20 +92,23 @@ section {
     padding: 0 1em 0 1em;
 }
 .forcast {
-    display: inline-block;
+    display: block;
     padding: 0.5em 1em 0.5em 1em;
     text-align: center;
 }
 .info {
     padding-left: 1.5em;
+    text-align: center;
 }
 .weather {
-    display: inline-block;
+    display: block;
+    text-align: center;
     padding: 0.5em 3em 0.5em 3em;
 }
 .contact {
     padding-left: 3em;
-    display: inline-block;
+    display: block;
+    text-align: center;
     padding: 0.5em 3em 0.5em 3em;
 }
 .summary {
