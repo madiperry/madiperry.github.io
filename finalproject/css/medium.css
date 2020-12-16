@@ -1,6 +1,8 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 800px) {
-
+    nav {
+        padding-left: 3.5rem;
+    }
     nav button{
         display: none;
     }
@@ -18,7 +20,7 @@
     }
     nav ul li a{
         border: none;
-        font-size: 0.75em;
+        font-size: 1.3em;
         padding: 0.7em;
         max-width: 100%;
         text-align: center;
@@ -33,9 +35,6 @@
         width: 100px;
         padding-top: .5em;
         padding-left: 1.5em;
-    }
-    nav {
-        font-size: 19px;
     }
     .cards {
         display: grid;
