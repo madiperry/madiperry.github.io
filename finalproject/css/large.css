@@ -8,6 +8,7 @@
         padding: 0.5rem;
         max-width: 100%;
         text-align: center;
+        margin-left: 2.5em;
     }
     nav {
         font-size: 0.7em;
@@ -52,6 +53,9 @@
         padding-top: .5em;
         padding-left: 1.5em;
     }
+    h1 {
+        margin-left: 13em;
+    }
     .contact {
         display: inline-block;
         padding: 1.5em;
@@ -85,4 +89,11 @@
     #map {
         margin-left: 19em;
       }
+    #call{
+        margin-left: 24em;
+    }
+    #logo {
+        margin-left: 15em;
+        width: 125px;
+    }
 }

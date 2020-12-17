@@ -14,7 +14,7 @@
     <header> 
         <img src="images/mopedlogo.png" alt="logo" id="logo">
             <h1>~Scoots Skates</h1>
-            <p>Explore the island on Scooters today!</p> 
+            <p id="call">Explore the island on Scooters today!</p> 
     </header>
     <nav class="navigation">
         <button onclick="toggleMenu()">&#9776;</button>
@@ -28,7 +28,17 @@
     </nav>
     <main>
         <h2>Contact</h2>
-        
+        <form>
+            <fieldset>
+                <legend><h4>Leave a Comment</h4></legend>
+            <label class="top">Full Name*<input type="text" name="fullname" required minlength="5"></label>
+            <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Comment
+            <input type="text" rows="4" cols="40" name="comment" placeholder="Type comment here...."></textarea>
+                <input type="submit" value="Send Comment" class="submitBtn"></input>
+            </label>
+            </fieldset>
+        </form>
         <section class="contact">
             <p><h3>Contact Information</h3><br>
                 Email: scootsskates@gmail.com <br>
@@ -37,19 +47,7 @@
                 <a href="https://www.instagram.com/?hl=en"><img src="images/instagram.png" alt="instagram" width="50" class="social"></a> <br>
             </p>
         </section>
-        <form>
-            <fieldset>
-                <legend><h4>Leave a Comment</h4></legend>
-            <label class="top">Full Name*<input type="text" name="fullname" required minlength="5"></label>
-            <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <textarea rows="4" cols="40" name="comment" form="usrform">Type comment here...</textarea>
-                <input type="submit" value="Send Comment" class="submitBtn"></input>
-            </fieldset>
-        
-        </form>
-            
             <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d275829.6644590391!2d-87.03706857738145!3d20.420529119453015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scozumel!5e0!3m2!1sen!2sus!4v1608160055586!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="map"></iframe>
-    
     </main>
     <footer>
         <p class="date"><strong>Last Modified: <span id="currentDate"></span></strong> <br>&copy;SCOOTS SKATES 2020</p>

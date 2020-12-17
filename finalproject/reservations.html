@@ -14,7 +14,7 @@
         <header>
             <img src="images/mopedlogo.png" alt="logo" id="logo">
             <h1>~Scoots Skates</h1>
-            <p>Explore the island on Scooters today!</p>
+            <p id="call">Explore the island on Scooters today!</p>
         </header>
         <nav class="navigation">
             <button onclick="toggleMenu()">&#9776;</button>
@@ -29,7 +29,7 @@
         <main>
             <h2>Reservations</h2>
            <section class="info">
-            <h3>Information and Services</h3>
+            <p>Information and Services</p>
             <ul>
                 <li>A $50 security deposit is required to confirm reservations.</li>
                 <li>A valid drivers license is required in hand at time of rental.</li>
@@ -43,7 +43,7 @@
                 <li>Rentals may be returned to either location.</li>
             </ul>
            </section>
-            <h2>Rental Form</h2>
+            <h3>Rental Form</h3>
             <form method="get" action="confirmation.html">
                 <fieldset>
                 <legend><h3>Personal Information</h3></legend>
@@ -65,7 +65,7 @@
                 </fieldset>
                 <fieldset>
                     <legend><h4>Rental Information</h4></legend>
-                    <label class="top">Trip Date<input type="date" name="completeDate"> to <input type="date" name="completeDate"></label>
+                    <label class="top">Trip Date<input type="date" name="completeDate"></label><label class="top"></label>to<input type="date" name="completeDate"></label>
                     <label class="top">Vehicle type
                         <select name="Type">
                             <option value="">Please Select &#9662;</option>
