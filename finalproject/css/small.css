@@ -189,6 +189,13 @@ form label.top input:required:valid{
     border-radius: 20px;
     color: white;
 }
+.timages {
+    display: block;
+    text-align: center;
+    background-color: #B8f2E6;
+    border-radius: 30px;
+    padding: 1em;
+}
 .summary img {
     display: inline-block;
     padding: 1em;
@@ -202,6 +209,10 @@ form label.top input:required:valid{
     text-align: left;
     margin-left: 10em;
 }
+#covid {
+    background-color: red;
+    color: white;
+}
 #logo {
     width: 100px;
     margin-left: 1.5em;
@@ -210,7 +221,7 @@ form label.top input:required:valid{
   margin-left: 3em;
 }
 p {
-    margin: 1em;
+    text-align: center;
 }
 footer {
     background-color: #B8f2E6;
