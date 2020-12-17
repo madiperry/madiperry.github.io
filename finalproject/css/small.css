@@ -186,6 +186,9 @@ form label.top input:required:valid{
     grid-template-columns: 1fr;
     text-align: center;
 }
+#map {
+  margin-left: 3em;
+}
 p {
     margin: 1em;
 }

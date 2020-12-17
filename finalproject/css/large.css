@@ -1,17 +1,17 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 1300px) {
     body {
-        font-size: 1.3rem;
+        font-size: 1em;
     }
     nav ul li a{
-        font-size: 20px;
-        padding: 0.6rem 1rem;
+        font-size: 10px;
+        padding: 0.5rem;
         max-width: 100%;
         text-align: center;
     }
     nav {
-        font-size: 10px;
-        padding-left: 5rem;
+        font-size: 0.7em;
+        padding-left: 5em;
     }
     div.banner {
         display: none;
@@ -19,7 +19,7 @@
         color: #12355B;
         padding: 1em;
         text-align: center;
-        font-size: 18px;
+        font-size: 11px;
     }
     nav button {
         display: none;
@@ -44,7 +44,6 @@
         padding: 1.5em 2.5em 1.5em 2.5em;
     }
     header {
-        font-size: 20px;
         padding: 1em;
     }
     header img {
@@ -55,12 +54,18 @@
     }
     .contact {
         display: inline-block;
+        padding: 1.5em;
+        max-height: 15em;
     }
     .weather {
         display: inline-block;
+        padding: 1.5em;
+        max-height: 15em;
     }
     .forecast {
         display: inline-block;
+        padding: 1.5em;
+        max-height: 15em;
     }
     .cards {
         display: grid;
@@ -77,4 +82,7 @@
         text-align: left;
         margin-left: 1em;
     }
+    #map {
+        margin-left: 19em;
+      }
 }

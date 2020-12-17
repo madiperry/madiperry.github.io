@@ -52,4 +52,7 @@
         display: block;
         margin-left: 1em;
     }
+    #map {
+        margin-left: 15em;
+      }
 }
