@@ -14,6 +14,9 @@
         font-size: 0.7em;
         padding-left: 5em;
     }
+    main form{
+        margin-left: 36.5%;
+    }
     div.banner {
         display: none;
         background-color: #ffbf00;
@@ -61,6 +64,9 @@
         padding: 1.5em;
         max-height: 15em;
     }
+    .info {
+        margin: 0 15em 0 15em;
+    }
     .forecast {
         display: table-cell;
         padding: 1.5em;
@@ -87,8 +93,9 @@
         display: block;
     }
     .contactc {
-        display: inline-block;
-        margin-left: 5em;
+        display: block;
+        margin-left: 34.5%;
+        margin-right: 35%;
         padding: 0 2em 0 2em;
         text-align: center;
     }
@@ -99,7 +106,7 @@
     }
     #map {
         display: inline-block;
-       
+       margin-left: 36.5%;
     }
     #call{
         margin-left: 24em;

@@ -41,12 +41,12 @@
     }
     main form{
         display: inline-block;
+        margin-left: 30%;
     }
     form label.top, form div{
         padding-right: 3rem;
         color:#12355B;
         font-size: 0.8rem;
-        justify-content: center;
     }
     .weather {
         display: block;
@@ -74,7 +74,7 @@
         display: inline-block;
     }
     #map {
-        margin-left: 15em;
+        margin-left: 30%;
       }
     #call{
         margin-left: 13em;
