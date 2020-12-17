@@ -43,6 +43,9 @@
         display: block;
         text-align: center;
     }
+    .contactpage {
+        display: inline-block;
+    }
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;

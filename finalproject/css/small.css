@@ -105,7 +105,7 @@ section {
 }
 form fieldset{
     margin: 2rem 1rem;
-    border: 1px solid #12355B;
+    border: 1px solid #4A7C59;
     padding: 1rem;
 }
 form legend{
@@ -123,7 +123,7 @@ form label.top input, form label.top select{
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border: solid 1px #12355B;
+    border: solid 1px #4A7C59;
     border-radius: 4px;
     padding: .75rem;
     color: #12355B;
