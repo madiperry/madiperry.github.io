@@ -56,20 +56,16 @@
     h1 {
         margin-left: 13em;
     }
-    .contact {
-        display: inline-block;
-        padding: 1.5em;
-        max-height: 15em;
-    }
     .weather {
-        display: inline-block;
+        display: table-cell;
         padding: 1.5em;
         max-height: 15em;
     }
     .forecast {
-        display: inline-block;
+        display: table-cell;
         padding: 1.5em;
         max-height: 15em;
+        margin: 1em;
     }
     .cards {
         display: grid;
@@ -82,13 +78,29 @@
         margin-left: 0.5em;
     }
     .contact {
+        display: table-cell;
+        margin-left: 5em;
+        padding: 1.5em;
+        max-height: 15em;
+    }
+    .comment {
+        display: block;
+    }
+    .contactc {
         display: inline-block;
-        text-align: left;
-        margin-left: 1em;
+        margin-left: 5em;
+        padding: 0 2em 0 2em;
+        text-align: center;
+    }
+    #large {
+        display: table;
+        width: 94%;
+        margin: 1em;
     }
     #map {
-        margin-left: 19em;
-      }
+        display: inline-block;
+       
+    }
     #call{
         margin-left: 24em;
     }

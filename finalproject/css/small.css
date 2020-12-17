@@ -79,21 +79,25 @@ nav ul li a:hover {
 }
 h1 {
     text-align: left;
-    margin-left: 4.5em;
+    margin-left: 5.5em;
 }
 h2 {
    margin-left: 1.5rem;
 }
 h3, h4, h5, h6 {
     font-size: 1.6em;
+    padding-top: 1em;
+    text-align: center;
 }
 section {
-    border: 3px solid #4A7C59;
-    margin: 1em;
+    background-color: #B8f2E6;
+    color: #12355B;
+    border-radius: 30px;
+    margin: 1.3em;
 }
 form fieldset{
     margin: 2rem 1rem;
-    border: 1px solid #4A7C59;
+    border: 1px solid #B8f2E6;
     padding: 1rem;
 }
 form legend{
@@ -103,7 +107,7 @@ form legend{
 }
 form label.top, form div{
     display: block;
-    padding-top: 1rem;
+    padding: 1rem;
     color:#12355B;
     font-size: 0.8rem;
 }
@@ -117,15 +121,15 @@ form label.top input, form label.top select{
     color: #12355B;
     width: 100%;
     max-width: 15rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: #B8f2E6;
 }
-form input.submitBtn{
+.submitBtn{
     border: none;
     background-color:#12355B;
     color: white;
     border-radius: 0.5rem;
     padding: .75rem;
-    margin-left: 2.5em;
+    margin-top: 2.5em;
     width: 100%;
     max-width: 15rem;
     margin-top: 1rem;
@@ -151,7 +155,6 @@ form label.top input:required:valid{
     text-align: center;
 }
 .info {
-    padding-left: 1.5em;
     text-align: center;
 }
 .info ul li {
@@ -163,6 +166,9 @@ form label.top input:required:valid{
     text-align: center;
     padding: 0.5em 3em 0.5em 3em;
 }
+.contactc{
+    text-align: center;
+}
 .social {
     padding: 1em 0.7em 1em 0.7em;
 }
@@ -171,15 +177,17 @@ form label.top input:required:valid{
 }
 .summary {
     text-align: center;
-    padding-left: 1em;
+    padding: 1em 0 1em 1em;
     display: block;
 }
-.simages{
+.simages {
     display: inline-block;
+    padding: 1em;
 }
 .simages:hover {
-    border: 1px solid #333333;
-    color: #B8f2E6;
+    border: 1px solid #12355b;
+    border-radius: 20px;
+    color: white;
 }
 .summary img {
     display: inline-block;
@@ -192,10 +200,11 @@ form label.top input:required:valid{
 }
 #call{
     text-align: left;
-    margin-left: 9em;
+    margin-left: 10em;
 }
 #logo {
     width: 100px;
+    margin-left: 1.5em;
 }
 #map {
   margin-left: 3em;
